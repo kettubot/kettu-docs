@@ -1,16 +1,16 @@
 # Version 3 Change Log
 
-This is a short overview of the new changes of Kettu for version 3 (V3). V3 is a complete rewrite from version 2 with every command being improved in some way with a few command being removed altogether. V3 also has sharding so Kettu can now scale above 2500 severs without breaking. As always please report bugs or other issues in [Kettu's support server](https://kettu.cc/support).
+This is a short overview of the new changes of Kettu for version 3 (V3). V3 is a complete rewrite from version 2 with every command being improved in some way with a few command being removed altogether. V3 also has sharding so Kettu can now scale  beyond 2,500 servers. As always please report bugs or other issues in [Kettu's support server](https://kettu.cc/support).
 
 -----------
 
 ## Removed Commands
 
 **deleteban**
-This command was removed as it is redundant to the ban command. There are plans to add the deleting functionality to the ban command itself later in the future.
+This command was removed as it is redundant to the ban command. There are plans to add the deleting functionality to the ban command itself in the future.
 
 **print** aka **log**
-This command was removed as its intended use was replaced with the `id` command. Some... odd context was printed onto the console unsurprisingly so this command was locked to the support server in v2. 
+This command was removed as its intended use was replaced with the `id` command. Some... odd context was printed onto the console unsurprisingly so this command was locked to the support server in v2.
 
 **report**
 This command only was ever used once for its intended use and it was often abused. Needless to say, like the print command this command will not be returning in V3.
@@ -23,9 +23,9 @@ This category got quite an update with a lot of the big changes in a different c
 
 ## Miscellaneous Commands
 
-This category has a lot of.. well, new miscellaneous commands.
+This category has a lot of... well, new miscellaneous commands.
 
-**colorrole** Sets the role of a color with a provided. Helpful for mobile users.
+**colorrole** Sets the role of a color using a hexcode augment. Helpful for mobile users.
 
 **enlarge** Enlarges a custom emote so you can see it clearer. Helpful for mobile users.
 
