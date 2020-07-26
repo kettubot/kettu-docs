@@ -97,7 +97,7 @@ This is a completely new category in Kettu V3. This is where you can set your us
 
 This category is where all of the server settings can be set and changed. All of these options will be available to be changed with a dashboard that is still in development.
 
-**commanddelete** Sets weather or not to delete the social command inputs for the server.
+**commanddelete** Sets wether or not to delete the social command inputs for the server.
 
 **configraidmode** Sets the anti raidmode settings.
 **modlog** Sets a channel for the mod logs.
