@@ -4,7 +4,7 @@ This repository is used to edit & maintain Kettu's v3 Documentation, which is st
 
 ## Overview
 
-All files and folders in this repository (with the exception of a few, in the table below) are located on the /docs path on Kettu's main site. `.md` extensions for pages are removed, and attempting to directly visit a folder will result in a 404 error.
+All files and folders in this repository (with the exception of a few, in the table below) are located on the `/docs` path on Kettu's main site. `.md` extensions for pages are removed, and attempting to directly visit a folder will result in a 404 error.
 
 ### Exempt Files
 
@@ -22,6 +22,8 @@ Markdown is rendered using [Marked](https://github.com/markedjs/marked), and sup
 
 Code is rendered using [Highlight.js](https://github.com/highlightjs/highlight.js), in the 'Tomorrow Night Bright' theme.
 
-## Auto-deploy
+## Beta
 
-Commits to the master branch are automatically deployed live.
+The `beta` branch works in exactly the same way to `master`, but can be found on the `/bdocs` path instead of `/docs`. It is designed for previewing work-in-progress documentation before it is deployed on the main docs page.
+
+Both `master` and `beta` automatically update on the website when pushed.
