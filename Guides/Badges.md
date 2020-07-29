@@ -1,6 +1,6 @@
 # Profile badges
 
-You may have noticed that users have different badges on their profile in the bot using the profile command. This guide will explain what they are and how one receive one. 
+You may have noticed that users have different badges on their profile in the bot using the profile command. This guide will explain what they are and how one receive one.
 
 -----------
 
@@ -24,13 +24,13 @@ These are the main developers behind Kettu.
 
 <img class="emoji" alt="Dev" src="https://cdn.discordapp.com/emojis/714986609707057243.png?v=1"> Developer
 
-A developer for Kettu. 
+A developer for Kettu.
 
 -------------
 
 <img class="emoji" alt="BugHunter" src="https://cdn.discordapp.com/emojis/714985145173671946.png?v=1"> Bug Hunter
 
-These people have helped find bugs 🐛 or spelling errors with Kettu. By helping to find bugs and mistakes you may be awarded this badge. 
+These people have helped find bugs 🐛 or spelling errors with Kettu. By helping to find bugs and mistakes you may be awarded this badge.
 
 --------
 
