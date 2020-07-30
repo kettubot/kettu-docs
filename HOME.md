@@ -7,7 +7,9 @@ After reading this documentation, if you still need help, please ask us in Kettu
 ## Understanding the syntax
 
 `[]` Optional augments.
+
 `<>` Required augments.
+
 `Required command permission` The required permission needed to run this command.
 
 ## Important Links
