@@ -7,6 +7,7 @@ Social commands are commands that interact with other users such as boops, hugs,
 ## Command Reference
 
 **/bap <@User/ID>**
+
 Baps a bad fluffball
 
 **/boop <@User/ID>**
