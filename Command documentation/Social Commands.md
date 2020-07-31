@@ -10,6 +10,8 @@ Social commands are commands that interact with other users such as boops, hugs,
 
 Baps a bad fluffball <img class="emoji" alt="Bap" src="https://cdn.discordapp.com/emojis/687780534424043629.png?v=1">
 
+Aliases: `baps`, `wack`, `wacks`
+
 -------
 
 **/boop <@User/ID>**
