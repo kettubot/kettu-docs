@@ -101,3 +101,9 @@ Gives another fluffball a zap >;)
 Aliases: `zaps`
 
 ---------
+
+## Other Options
+
+You can optionally disable social commands from embeding by putting `{noembed}` in the channel topic.
+
+![Exampe of no embed](https://gblobscdn.gitbook.com/assets%2F-M4KwQbTsFQaZNVPU7zr%2F-M4dzo0rX17BJ9mgHe0N%2F-M4e69a-G9xrlI1Q606G%2FScreenshot_3.png?alt=media&token=a2bea2aa-a30f-4bea-81c7-721044c60a34)
