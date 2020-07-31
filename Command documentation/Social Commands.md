@@ -8,7 +8,7 @@ Social commands are commands that interact with other users such as boops, hugs,
 
 **/bap <@User/ID>**
 
-Baps a bad fluffball
+Baps a bad fluffball <img class="emoji" alt="Bap" src="https://cdn.discordapp.com/emojis/687780534424043629.png?v=1">
 
 -------
 
