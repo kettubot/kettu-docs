@@ -19,6 +19,7 @@ Aliases: `baps`, `wack`, `wacks`
 Boops another fluffball.
 
 Aliases: `boops`
+
 -------
 
 **/cookie <@User/ID>**
