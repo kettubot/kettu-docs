@@ -8,11 +8,17 @@ Social commands are commands that interact with other users such as boops, hugs,
 
 **/bap <@User/ID>**
 
-> Baps a bad fluffball
+Baps a bad fluffball
+
+-------
 
 **/boop <@User/ID>**
 
+-------
+
 **/cookie <@User/ID>**
+
+-------
 
 **/hug <@User/ID>**
 
