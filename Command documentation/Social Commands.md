@@ -16,26 +16,71 @@ Aliases: `baps`, `wack`, `wacks`
 
 **/boop <@User/ID>**
 
+Boops another fluffball.
+
+Aliases: `boops`
 -------
 
 **/cookie <@User/ID>**
+
+Give another fluffball a cookie <img class="emoji" alt="Bap" src="https://cdn.discordapp.com/emojis/687769611093147670.png?v=1">
+
+Aliases: `givecookie`, `cookies`
 
 -------
 
 **/hug <@User/ID>**
 
+Gives another fluffball a huggo <img class="emoji" alt="Bap" src="https://cdn.discordapp.com/emojis/719682071802413208.gif?v=1">
+
+Aliases: `hugs`, `huggo`
+
+-------
+
 **/kiss <@User/ID>**
+
+Aliases:
+
+---------
 
 **/lick <@User/ID>**
 
+Aliases:
+
+--------
+
 **/nom <@User/ID>**
+
+Aliases:
+
+---------
 
 **/nuzzle <@User/ID>**
 
+Aliases:
+
+-----------
+
 **/pat <@User/ID>**
+
+Aliases:
+
+---------
 
 **/pounce <@User/ID>**
 
+Aliases:
+
+----------
+
 **/snuggle <@User/ID>**
 
+Aliases:
+
+-------------
+
 **/zap <@User/ID>**
+
+Aliases:
+
+---------
