@@ -5,3 +5,28 @@ Social commands are commands that interact with other users such as boops, hugs,
 ![setting preferences](https://cdn.discordapp.com/attachments/688594818007564369/738812358280871967/sGZJr41cPP.gif)
 
 ## Command Reference
+
+**/bap <@User/ID>**
+Baps a bad fluffball
+
+**/boop <@User/ID>**
+
+**/cookie <@User/ID>**
+
+**/hug <@User/ID>**
+
+**/kiss <@User/ID>**
+
+**/lick <@User/ID>**
+
+**/nom <@User/ID>**
+
+**/nuzzle <@User/ID>**
+
+**/pat <@User/ID>**
+
+**/pounce <@User/ID>**
+
+**/snuggle <@User/ID>**
+
+**/zap <@User/ID>**
