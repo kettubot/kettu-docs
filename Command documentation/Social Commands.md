@@ -40,48 +40,64 @@ Aliases: `hugs`, `huggo`
 
 **/kiss <@User/ID>**
 
-Aliases:
+Kisses another fluffball.
+
+Aliases: `kisses`
 
 ---------
 
 **/lick <@User/ID>**
 
-Aliases:
+Licks another fluffball.
+
+Aliases: `licking`, `licks`
 
 --------
 
 **/nom <@User/ID>**
 
-Aliases:
+Noms at another fluffball.
+
+Aliases: `noms`
 
 ---------
 
 **/nuzzle <@User/ID>**
 
-Aliases:
+Nuzzles another fluffball.
+
+Aliases: `nuzzles`
 
 -----------
 
 **/pat <@User/ID>**
 
-Aliases:
+Pats another fluffball.
+
+Aliases: `pats`, `pet`, `pets`
 
 ---------
 
 **/pounce <@User/ID>**
 
-Aliases:
+Pounces on another fluffball.
+
+Aliases: `pounces`, `attack`, `attacks`
 
 ----------
 
 **/snuggle <@User/ID>**
 
-Aliases:
+Snuggles another fluffball warmly.
+
+Aliases: `snugs`, `snuggles`, `snug`, `cuddle`, `cuddles`
 
 -------------
 
 **/zap <@User/ID>**
 
-Aliases:
+Gives another fluffball a zap >;)
+
+Aliases: `zaps`
 
 ---------
