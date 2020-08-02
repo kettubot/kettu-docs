@@ -10,7 +10,7 @@ After reading this documentation, if you still need help, please ask us in Kettu
 
 `<>` Required augments.
 
-`Required command permission` The required permission needed to run this command.
+`Permission Level` The required permission needed to run this command.
 
 ## Important Links
 
