@@ -2,8 +2,6 @@
 
 Informational commands rang from information commands about the bot (help, stats) to about the server itself (serverinfo, roleinfo).
 
----------
-
 ## Command Reference
 
 **/about** 
