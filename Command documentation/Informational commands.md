@@ -1,6 +1,6 @@
 # Informational Commands
 
-Informational commands rang from information commands about the bot (help, stats) to about the server itself (serverinfo, roleinfo).
+Informational commands rang from information commands about the bot (help, stats, ect) to about the server itself (serverinfo, roleinfo, ect).
 
 ## Command Reference
 
