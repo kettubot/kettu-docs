@@ -1,6 +1,6 @@
 # User Commands
 
-User commands primarily edit various aspects of the profile command and the users preferences. 
+User commands primarily edit various aspects of the profile command and the users preferences.
 
 ## Command Reference
 
