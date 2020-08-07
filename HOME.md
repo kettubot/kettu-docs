@@ -1,15 +1,22 @@
-# Kettu v3 Docs
+# Kettu Documentation
 
-Welcome to Kettu's documentation. Kettu is a fully SFW furry Discord bot designed to keep your server fluffs happy and safe. From bapping to booping and banning, Kettu does it all. 
+Welcome to Kettu's documentation. Kettu is a fully SFW furry Discord bot designed to keep your server fluffs happy and safe. From bapping to booping and banning, Kettu does it all.
 
 After reading this documentation, if you still need help, please ask us in Kettu's [support server](https://discordapp.com/invite/4Bavumy).
+
+## Understanding the syntax
+
+`[]` Optional augments.
+
+`<>` Required augments.
+
+`Permission Level` The required permission needed to run this command.
 
 ## Important Links
 
 - [Support Server](https://discordapp.com/invite/4Bavumy)
 - [Invite Kettu](https://kettu.dynodel.com/invite?ref=docs)
 - [Review Kettu](https://bots.ondiscord.xyz/bots/667131062941384757/review)
-
 
 ## Special Thanks
 
