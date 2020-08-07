@@ -10,7 +10,7 @@ One of the most important changes to come in V3 is support for sharding. This al
 
 ### New Commands
 
-#### Miscellaneous Commands
+### Miscellaneous Commands
 
 **colorrole** Sets the role of a color using a hexcode augment. Helpful for mobile users.
 
@@ -24,7 +24,7 @@ One of the most important changes to come in V3 is support for sharding. This al
 
 **sync** Syncs a channel with its category. Helpful for mobile users.
 
-#### Moderation commands
+### Moderation commands
 
 **history** This shows a users punishments if a user augment is provided and more details about a case if a case number is given.
 
@@ -38,7 +38,7 @@ One of the most important changes to come in V3 is support for sharding. This al
 
 **reason** Sets a new reason for a case. If mod logs are set the mod log message will be edited to reflect the new reason.
 
-#### Informational commands
+### Informational commands
 
 **roleinfo** Gives useful information about a given role.
 
@@ -48,7 +48,7 @@ One of the most important changes to come in V3 is support for sharding. This al
 
 **avatar** displays a users avatar.
 
-#### User commands
+### User commands
 
 This is a completely new category in Kettu V3. This is where you can set your user preferences and profile options.
 
@@ -66,7 +66,7 @@ This is a completely new category in Kettu V3. This is where you can set your us
 
 **votetoggle** Toggle if you are reminded for votes or not.
 
-#### Settings commands
+### Settings commands
 
 **commanddelete** Sets whether or not to delete the social command inputs for the server.
 
