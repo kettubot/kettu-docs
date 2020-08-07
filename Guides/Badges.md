@@ -1,6 +1,6 @@
 # Profile badges
 
-You may have noticed that users have different badges on their profile in the bot using the profile command. This guide will explain what they are and how one receive one.
+You may have noticed that users have different badges on their profile in the bot's profile command. This guide will explain what they are and how to receive one.
 
 -----------
 
@@ -36,7 +36,7 @@ These people have helped find bugs 🐛 or spelling errors with Kettu. By helpin
 
 <img class="emoji" alt="Booster" src="https://cdn.discordapp.com/emojis/714987489689075854.png?v=1"> Booster
 
-A supper amazing nitro booster in Kettu's [support server](https://kettu.cc/support). Note, this badge is not automatically added.
+A super amazing nitro booster in Kettu's [support server](https://kettu.cc/support). Note, this badge is not automatically added.
 
 --------
 
@@ -54,7 +54,7 @@ Someone who has voted for Kettu on various sites. This badge is automatically gi
 
 <img class="emoji" alt="ArtHunter" src="https://cdn.discordapp.com/emojis/714985621751463989.png?v=1"> Art Hunter
 
-These people have helped find art images used in Kettu's social commands or suggested responses. [Click here](https://kettu.cc/docs/Guides/Suggesting) to learn on how to suggest art and repsonses for Kettu!
+These people have helped find art images used in Kettu's social commands or suggested responses. [Click here](https://kettu.cc/docs/Guides/Suggesting) to learn how to suggest art and repsonses for Kettu!
 
 --------
 
@@ -64,7 +64,7 @@ Someone who has donated $2 or more to Kettu. Please contact an admin if you woul
 
 --------
 
-<img class="emoji" alt="SupperDonor" src="https://cdn.discordapp.com/emojis/734613951790448640.png?v=1"> Supper Donor
+<img class="emoji" alt="SupperDonor" src="https://cdn.discordapp.com/emojis/734613951790448640.png?v=1"> Super Donor
 
 Someone who has donated $20 or more to Kettu 🧡 
 

@@ -1,12 +1,12 @@
 # Settings Commands
 
-This commands set all of the set able aspects for Kettu, from the prefix to modlogs, nitro settings and more.
+These commands set all of the configurable aspects of Kettu, from the prefix to modlogs, nitro settings and more.
 
 ## Command Reference
 
 **/commanddelete [on/off]**
 
-Sets wether or not to delete the social command inputs for the server.
+Sets whether or not to delete the social command inputs for the server.
 
 Alias: `setcommanddelete`
 
@@ -66,7 +66,7 @@ Permission Level: `MANAGE_GUILD`
 
 **/prefix [newprefix]**
 
-Change prefix for the server.
+Change prefix for the server, or display the current prefix if no new prefix is provided.
 
 Aliases: `setprefix`, `newprefix`, `prefox`
 

@@ -22,7 +22,7 @@ Alias: `setbio`
 
 **/color [hex code]**
 
-Sets your profile's color using a hex code.
+Sets your profile's color using a hex code (eg #02f4d0).
 
 Aliases: `setcolor`
 
@@ -38,7 +38,7 @@ Aliases: `deletedata`, `cleardata`
 
 **/preferences [command]**
 
-Changes a user's preferences.
+Displays your social command preferences if no arguments are provided, or toggles your settings for the specified command.
 
 Aliases: `socialdisable`, `preference`, `userpreferences`, `pref`
 
