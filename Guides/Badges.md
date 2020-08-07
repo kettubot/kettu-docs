@@ -1,6 +1,6 @@
 # Profile badges
 
-You may have noticed that users have different badges on their profile in the bot's profile command. This guide will explain what they are and how to one receive one.
+You may have noticed that users have different badges on their profile in the bot's profile command. This guide will explain what they are and how to receive one.
 
 -----------
 
