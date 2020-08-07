@@ -1,4 +1,3 @@
-
 # Setting up lockserver
 
 In this guide will go over how to setup your Discord permissions to effectively use the lockserver command. If you do **not** know Discord permissions very well please read [this Discord guide](https://successofone.com/discord/the-complete-guide-to-discord-permissions/) on permissions. It will help greatly if you know Discord's permission system beforehand.
