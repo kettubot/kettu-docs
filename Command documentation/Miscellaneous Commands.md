@@ -16,7 +16,7 @@ Permission Level: `MANAGE_ROLES`
 
 **/dadjoke**
 
-Want to hear a corny, dad joke? Then this is the command for you <img class="emoji" alt="wink" src="https://cdn.discordapp.com/emojis/706248912809230508.png?v=1">
+Want to hear a corny dad joke? Then this is the command for you <img class="emoji" alt="wink" src="https://cdn.discordapp.com/emojis/706248912809230508.png?v=1">
 
 ---------
 

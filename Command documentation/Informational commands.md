@@ -1,6 +1,6 @@
 # Informational Commands
 
-Informational commands rang from information commands about the bot (help, stats, ect) to about the server itself (serverinfo, roleinfo, ect).
+Informational commands range from information commands about the bot (help, stats, ect) to about the server itself (serverinfo, roleinfo, ect).
 
 ## Command Reference
 
@@ -14,7 +14,7 @@ Aliases: `aboutme`, `info`
 
 **/avatar [<@User/ID>]** 
 
-Shows you a fluffballs avatar.
+Shows you a fluffball's avatar.
 
 Aliases: `pfp`, `av`, `a`, `icon`
 
