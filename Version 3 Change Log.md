@@ -100,6 +100,7 @@ This category is where all of the server settings can be set and changed. All of
 **commanddelete** Sets whether or not to delete the social command inputs for the server.
 
 **configraidmode** Sets the anti raidmode settings.
+
 **modlog** Sets a channel for the mod logs.
 
 **modrole** Sets a mod role for the server.
