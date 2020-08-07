@@ -22,7 +22,7 @@ Aliases: `pfp`, `av`, `a`, `icon`
 
 **/contributors** 
 
-Lists all the contributes that made this bot possible.
+Lists all the contributors that made this bot possible.
 
 Alias: `contrib`
 
@@ -30,7 +30,7 @@ Alias: `contrib`
 
 **/help [command]** 
 
-This is the help command. Run the command with a command after for more information about a command.
+This is the help command. Run the command with a command name after for more information about that command.
 
 Alias: `h`
 
@@ -80,10 +80,10 @@ This command gives you an invite for Kettu's support server.
 
 Alias: `helpme`
 
----------
+--------
 
 **/upvote**
 
 Gives you links to vote for Kettu ^^
 
------------
+--------

@@ -30,7 +30,7 @@ Aliases: `enlargeemoji`, `bigemoji`, `jumbo`, `emote`
 
 **/id <Object>**
 
-Returns the ID of the object. The object can be roles, roles, emotes, channels ect.
+Returns the ID of the object. The object can be a user, role, emote, channel ect.
 
 ---------
 
@@ -46,13 +46,13 @@ Permission Level: `MANAGE_CHANNELS`
 
 **/poll <poll>**
 
-This command makes a poll with a check, an X, and a shrug.
+This command makes a poll with check, X, and shrug reaction options.
 
 ---------
 
 **/remind <m/h/d/w/M/y> [message]**
 
-Sends you a DM reminder after the specified time.
+Sends you a DM reminder after the specified time. An example time might be `2w4d` for 2 weeks and 4 days.
 
 Aliases: `remindme`, `rm`
 
@@ -60,7 +60,7 @@ Aliases: `remindme`, `rm`
 
 **/selfrole <@Role/ID>**
 
-Adds or removes a role as long as it is set as a selfrole.
+Adds or removes a role from the user, as long as it is set as a selfrole.
 
 Aliases: `iam`, `sr`, `iamnot`
 
@@ -68,7 +68,7 @@ Aliases: `iam`, `sr`, `iamnot`
 
 **/suggest [response] <category> <link or response>**
 
-Suggest an image or a command
+Suggest an image or a command for Kettu.
 
 ---------
 
@@ -84,6 +84,6 @@ Permission Level: `MANAGE_CHANNELS`
 
 **/vote <2-10> <vote here>**
 
-This command makes a multi choice question from 2 to 10 questions.
+This command makes a multiple choice question, from 2 to 10 reaction options.
 
 Alias: `callvote`
