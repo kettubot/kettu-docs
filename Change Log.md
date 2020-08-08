@@ -86,7 +86,7 @@ This is a completely new category in Kettu V3. This is where you can set your us
 
 **check** This now has more data then before such as if they are muted or not and if they have strikes as well as a link to the users profile.
 
-**lockserver** This command no longer destroys the default roles perms and instead just removes the send messages permissions from the role. Unlock only adds this perm back.
+**lockserver**  no longer destroys the default roles perms and instead just removes the send messages permissions from the role. Unlock only adds this perm back.
 
 **vote**, **poll** and **id** now all work even if Kettu can not delete the message. In the case of poll and vote it just reacts to that  message instead of sending a new one.
 
@@ -97,3 +97,5 @@ This is a completely new category in Kettu V3. This is where you can set your us
 All social commands now have multiple responses and new images.
 
 **lockchannel** and **unlockchannel** now have 2 flag options, NSFW and hide, NSFW marks the channel as NSFW and hide hides the channel.
+
+**suggest** was completly remade and it is used for suggesting new images and responses for the social command.
