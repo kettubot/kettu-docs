@@ -48,6 +48,8 @@ One of the most important changes to come in V3 is support for sharding. This al
 
 **avatar** displays a users avatar.
 
+**upvote** Gives you some links to upvote Kettu on. Learn more about voting [here](https://kettu.cc/docs/Guides/Voting)
+
 ### User commands
 
 This is a completely new category in Kettu V3. This is where you can set your user preferences and profile options.
