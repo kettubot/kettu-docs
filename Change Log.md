@@ -1,22 +1,22 @@
 # Change log
 
-Here you can find detailed logs of the changes in Kettu. [Click here](https://gideon-foxo.gitbook.io/kettu/change-log) to see all the change logs prier to V3.
+Here you can find detailed logs of the changes in Kettu. [Click here](https://gideon-foxo.gitbook.io/kettu/change-log) to see all the change logs prior to V3.
 
 ## Version 3.0.0
 
 ### General Improvements
 
-One of the most important changes to come in V3 is support for sharding. This allows Kettu to scale above 2500 servers. Another much needed change was moving to a rethink database. This allows us to store a lot more data then just server prefixes. Some front end improvements include being able to mention the bot as a prefix in addition to the server prefix. The prefix is also no longer case sensitive meaning if your prefix is `prefix` you can do `prefixping` or `PREFIXping` or for the heck of it `PrEfIxping`.
+One of the most important changes to come in V3 is support for sharding. This allows Kettu to scale above 2500 servers. Another much needed change was moving to a proper non-relational database. This allows us to store a lot more data than just server prefixes. Some front end improvements include being able to mention the bot as a prefix in addition to the server prefix. The prefix is also no longer case sensitive, meaning if your prefix is `prefix` you can do `prefixping` or `PREFIXping` or for the heck of it `PrEfIxping`.
 
 ### New Commands
 
-### Miscellaneous Commands
+#### Miscellaneous Commands
 
-**colorrole** Sets the color of a role using a hexcode augment. Helpful for mobile users.
+**colorrole** Sets the color of a role using a hexcode argument. Helpful for mobile users.
 
 **enlarge** Enlarges a custom emote so you can see it clearer. Helpful for mobile users.
 
-**nsfw** This command toggles a channels nsfw mode. Helpful for mobile users, especially users on iOS.
+**nsfw** This command toggles a channel's nsfw mode. Helpful for mobile users, especially users on iOS.
 
 **remind** Sets a reminder for you then DMs you when the time has come.
 
@@ -24,9 +24,9 @@ One of the most important changes to come in V3 is support for sharding. This al
 
 **sync** Syncs a channel with its category. Helpful for mobile users.
 
-### Moderation commands
+#### Moderation commands
 
-**history** This shows a user's punishments if a user augment is provided and more details about a case if a case number is given.
+**history** This shows a user's punishments if a user is provided, or more details about a case if a case number is provided.
 
 **mute** Mutes a user for the specified time.
 
@@ -34,23 +34,23 @@ One of the most important changes to come in V3 is support for sharding. This al
 
 **raidmode** Manually sets the raidmode.
 
-**purge** Purges the amount of provided of messages with many posable augments.
+**purge** Purges a number of recent messages matching a set of options.
 
 **reason** Sets a new reason for a case. If mod logs are set the mod log message will be edited to reflect the new reason.
 
-### Informational commands
+#### Informational commands
 
 **roleinfo** Gives useful information about a given role.
 
-**serverinfo** This command gives useful information about the server the command is ran in.
+**serverinfo** This command gives useful information about the server the command is run in.
 
 **upvote** Gives you links to vote for Kettu ^^
 
 **avatar** displays a users avatar.
 
-**upvote** Gives you some links to upvote Kettu on. Learn more about voting [here](https://kettu.cc/docs/Guides/Voting)
+**upvote** Gives you some links to upvote Kettu on. Learn more about voting [here](https://kettu.cc/docs/Guides/Voting).
 
-### User commands
+#### User commands
 
 This is a completely new category in Kettu V3. This is where you can set your user preferences and profile options.
 
@@ -68,7 +68,7 @@ This is a completely new category in Kettu V3. This is where you can set your us
 
 **votetoggle** Toggle if you are reminded for votes or not.
 
-### Settings commands
+#### Settings commands
 
 **commanddelete** Sets whether or not to delete the social command inputs for the server.
 
@@ -86,11 +86,11 @@ This is a completely new category in Kettu V3. This is where you can set your us
 
 ### Improved commands
 
-**check** This now has more data then before such as if they are muted or not and if they have strikes as well as a link to the user's profile.
+**check** shows more data such as whether a user is muted, how many strikes they have, and a link to their profile.
 
-**lockserver**  no longer destroys the default roles perms and instead just removes the send messages permissions from the role. Unlock only adds this perm back.
+**lockserver** no longer destroys the default roles perms and instead just removes the send messages permissions from the role. Unlock only adds this perm back.
 
-**vote**, **poll** and **id** now all work even if Kettu can not delete the message. In the case of poll and vote it just reacts to that  message instead of sending a new one.
+**vote**, **poll** and **id** now all work even if Kettu can not delete the message. In the case of poll and vote it just reacts to that message instead of sending a new one.
 
 **help** A fresh new reaction menu system and a face lifted help for commands.
 
