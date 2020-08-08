@@ -12,7 +12,7 @@ One of the most important changes to come in V3 is support for sharding. This al
 
 ### Miscellaneous Commands
 
-**colorrole** Sets the role of a color using a hexcode augment. Helpful for mobile users.
+**colorrole** Sets the color of a role using a hexcode augment. Helpful for mobile users.
 
 **enlarge** Enlarges a custom emote so you can see it clearer. Helpful for mobile users.
 
@@ -26,7 +26,7 @@ One of the most important changes to come in V3 is support for sharding. This al
 
 ### Moderation commands
 
-**history** This shows a users punishments if a user augment is provided and more details about a case if a case number is given.
+**history** This shows a user's punishments if a user augment is provided and more details about a case if a case number is given.
 
 **mute** Mutes a user for the specified time.
 
@@ -64,7 +64,7 @@ This is a completely new category in Kettu V3. This is where you can set your us
 
 **preferences** Changes a user's preferences.
 
-**profile** Shows you a users profile.
+**profile** Shows you a user's profile.
 
 **votetoggle** Toggle if you are reminded for votes or not.
 
@@ -86,7 +86,7 @@ This is a completely new category in Kettu V3. This is where you can set your us
 
 ### Improved commands
 
-**check** This now has more data then before such as if they are muted or not and if they have strikes as well as a link to the users profile.
+**check** This now has more data then before such as if they are muted or not and if they have strikes as well as a link to the user's profile.
 
 **lockserver**  no longer destroys the default roles perms and instead just removes the send messages permissions from the role. Unlock only adds this perm back.
 
@@ -94,10 +94,10 @@ This is a completely new category in Kettu V3. This is where you can set your us
 
 **help** A fresh new reaction menu system and a face lifted help for commands.
 
-**ban**, **kick**, **softban** and **strike** all now take more then one user at a time as well as flags and images.
+**ban**, **kick**, **softban** and **strike** all now take more than one user at a time as well as flags and images.
 
 All social commands now have multiple responses and new images.
 
 **lockchannel** and **unlockchannel** now have 2 flag options, NSFW and hide, NSFW marks the channel as NSFW and hide hides the channel.
 
-**suggest** was completly remade and it is used for suggesting new images and responses for the social command.
+**suggest** was completely remade and it is used for suggesting new images and responses for the social command.
