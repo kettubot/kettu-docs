@@ -4,7 +4,7 @@ Here you can find detailed logs of the changes in Kettu. [Click here](https://gi
 
 ## Version 3.0.1
 
-Changed the roleinfo command so if a role has more then 29 users it does not attempted to list all of the users but instead lists.
+Changed the roleinfo command so if a role has more then 29 users it does not attempted to list all of the users instead giving the user count for that role.
 
 The bot now posts server stats to all of the bot lists.
 
