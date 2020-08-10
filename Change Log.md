@@ -12,6 +12,8 @@ Fixed bug in the help command with the reactions when the bot lacks manege messa
 
 Removed the `s` alias from the strike command.
 
+Kettu now correctly tracks votes.
+
 Fixed several typos.
 
 Fixed several small bugs.
