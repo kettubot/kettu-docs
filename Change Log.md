@@ -2,6 +2,22 @@
 
 Here you can find detailed logs of the changes in Kettu. [Click here](https://gideon-foxo.gitbook.io/kettu/change-log) to see all the change logs prier to V3.
 
+## Version 3.0.1
+
+Changed the roleinfo command so if a role has more then 29 users it does not attempted to list all of the users but instead lists.
+
+The bot now posts server stats to all of the bot lists.
+
+Fixed bug in the help command with the reactions when the bot lacks manege message permissions.
+
+Removed the `s` alias from the strike command.
+
+Fixed several typos.
+
+Fixed several small bugs.
+
+-------
+
 ## Version 3.0.0
 
 ### General Improvements
