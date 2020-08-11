@@ -8,7 +8,7 @@ Changed the roleinfo command so if a role has more then 29 users it does not att
 
 The bot now posts server stats to all of the bot lists.
 
-Fixed bug in the help command with the reactions when the bot lacks manege message permissions.
+Fixed bug in the help command with the reactions when the bot lacks manage message permissions.
 
 Removed the `s` alias from the strike command.
 
