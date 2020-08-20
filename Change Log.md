@@ -2,9 +2,29 @@
 
 Here you can find detailed logs of the changes in Kettu. [Click here](https://gideon-foxo.gitbook.io/kettu/change-log) to see all the change logs prior to V3.
 
+## Version 3.0.2
+
+Some commands now work in DMs and Kettu no longer sends a message saying you must run commands in a server if you DM Kettu with anything.
+
+Added a new source command that gives you information about the social command images. You may have already noticed this in the footers of social commands.
+
+Changed the way Kettu handle errors a bit.
+
+The suggest command now requires a source.
+
+Fixed bug where the moderation commands would throw an error if you fed them an invalid user.
+
+Changed the badges command to now give a link to our website as the information it displayed was outdated.
+
+Fixed a few bugs in the purge command.
+
+Fixed a few typos and smaller bugs.
+
+--------
+
 ## Version 3.0.1
 
-Changed the roleinfo command so if a role has more then 29 users it does not attempted to list all of the users instead giving the user count for that role.
+Changed the roleinfo command so if a role has more then 29 users it does not attempt to list all of the users instead giving the user count for that role.
 
 The bot now posts server stats to all of the bot lists.
 
