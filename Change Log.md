@@ -2,6 +2,26 @@
 
 Here you can find detailed logs of the changes in Kettu. [Click here](https://gideon-foxo.gitbook.io/kettu/change-log) to see all the change logs prior to V3.
 
+## Version 3.1.0
+
+Added join and leave logs. The command to set this up is `/joinlog [channel]`
+
+Added a new social command; Bellyrubs!
+
+Some commands now work in DMs!
+
+Added the aliases `case` and `cases` to the history command.
+
+Fixed a bug in the check command where it always returned the user having 0 strikes.
+
+Fixed a bug with moderation commands that would throw "No user" when more then 1 user was provided.
+
+Fixed lots of bugs (making commands work in DMs causes a lot of issues).
+
+Fixed several typos.
+
+--------
+
 ## Version 3.0.2
 
 Some commands now work in DMs and Kettu no longer sends a message saying you must run commands in a server if you DM Kettu with anything.
