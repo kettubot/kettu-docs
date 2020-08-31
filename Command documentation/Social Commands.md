@@ -22,6 +22,14 @@ Aliases: `boops`
 
 -------
 
+**/bellyrub <@User/ID>**
+
+Gives a fluffball some bellyrubs
+
+Aliases: bellyrubs, rubsbelly
+
+------------
+
 **/cookie <@User/ID>**
 
 Give another fluffball a cookie <img class="emoji" alt="Bap" src="https://cdn.discordapp.com/emojis/687769611093147670.png?v=1">
