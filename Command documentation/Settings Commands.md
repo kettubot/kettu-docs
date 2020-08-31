@@ -24,6 +24,16 @@ Permission Level: `MANAGE_GUILD`
 
 -----------
 
+**/joinlog [#channel/ID]**
+
+Sets a channel for the join logs.
+
+Aliase?s: `setjoinlog`, `joinlogchannel`, `setjoinchannel`
+
+Permission Level: `MANAGE_GUILD`
+
+----------
+
 **/modrole [@Role/ID]**
 
 Sets a mod role for the server.
