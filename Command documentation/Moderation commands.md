@@ -36,7 +36,7 @@ Permission Level: `BAN_MEMBERS`
 
 Searches a user for their punishments if a user argument is given and gives more detailed info of a case if a case number is given.
 
-Aliases: `search`, `searchall`, `modlog`, `modlogs`, `warnings`, `/hcase`, `cases`
+Aliases: `search`, `searchall`, `modlog`, `modlogs`, `warnings`, `case`, `cases`
 
 Permission Level: `BAN_MEMBERS`
 
