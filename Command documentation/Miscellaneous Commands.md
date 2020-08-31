@@ -28,7 +28,7 @@ Aliases: `enlargeemoji`, `bigemoji`, `jumbo`, `emote`
 
 ---------
 
-**/id <Object>**
+**/id \<Object>**
 
 Returns the ID of the object. The object can be a user, role, emote, channel ect.
 
