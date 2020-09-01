@@ -4,6 +4,14 @@ Informational commands range from information commands about the bot (help, stat
 
 ## Command Reference
 
+**/privacypolicy**
+
+Kettu's privacy policy.
+
+Aliases: `policy`, `privacy`
+
+-------
+
 **/about** 
 
 This command gives you information about Kettu 🦊

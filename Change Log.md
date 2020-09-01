@@ -2,6 +2,22 @@
 
 Here you can find detailed logs of the changes in Kettu. [Click here](https://gideon-foxo.gitbook.io/kettu/change-log) to see all the change logs prior to V3.
 
+## Version 3.1.1
+
+Added the command; settings. This displays the servers settings.
+
+Gave the preference command a face lift with new emotes.
+
+Added some new responses to the zap and cookie command.
+
+Tweaked the serverinfo command slightly.
+
+Updated links in the bot to the correct domain.
+
+Fixed a few bugs and typos.
+
+--------
+
 ## Version 3.1.0
 
 Added join and leave logs. The command to set this up is `/joinlog [channel]`

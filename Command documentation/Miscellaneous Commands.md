@@ -28,7 +28,7 @@ Aliases: `enlargeemoji`, `bigemoji`, `jumbo`, `emote`
 
 ---------
 
-**/id <Object>**
+**/id \<Object>**
 
 Returns the ID of the object. The object can be a user, role, emote, channel ect.
 
@@ -66,9 +66,9 @@ Aliases: `iam`, `sr`, `iamnot`
 
 ---------
 
-**/suggest [response] <category> <link or response>**
+**/suggest [response] <category> <link or response> <source (for images only)>**
 
-Suggest an image or a command for Kettu.
+Suggest an image or a command response for a social command. [Click here](https://kettu.cc/docs/Guides/Suggesting) to learn more about how to suggest.
 
 ---------
 
