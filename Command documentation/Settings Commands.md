@@ -93,3 +93,11 @@ Aliases: `setsr`, `ssr`
 Permission Level: `MANAGE_GUILD`
 
 -----------
+
+**/settings**
+
+Displays the servers settings
+
+Aliases: `setting`, `serversettings`
+
+Permission Level: `MANAGE_GUILD`
