@@ -2,6 +2,26 @@
 
 Here you can find detailed logs of the changes in Kettu. [Click here](https://gideon-foxo.gitbook.io/kettu/change-log) to see all the change logs prior to V3.
 
+## Version 3.1.2
+
+Fixed a bug that prevented any case from logging in the database if no mod log channel was set.
+
+Fixed the reason command so it now sets the reason for the case in the database as well as mod log. This command also sets the reason even if no mod log is set.
+
+Fixed a few bugs in the nitro command. Now is should say you use an incorrect syntax instead of erroring out.
+
+Updated the website home page.
+
+Fixed a bug in the serverinfo command that prevented it from working in some servers. Some broken markdown was also fixed.
+
+Fixed the bot not correctly sending server stats to a few bot lists.
+
+Updated the `upvote` command removing a defunct bot list and crossing out Arcane center as it does not log votes (that site is not very good).
+
+Fixed several other bugs throughout the bot.
+
+-------------
+
 ## Version 3.1.1
 
 Added the command; settings. This displays the servers settings.
