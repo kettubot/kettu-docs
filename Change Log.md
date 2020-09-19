@@ -20,6 +20,8 @@ Updated the `upvote` command removing a defunct bot list and crossing out Arcane
 
 Fixed several other bugs throughout the bot.
 
+-------------
+
 ## Version 3.1.1
 
 Added the command; settings. This displays the servers settings.
