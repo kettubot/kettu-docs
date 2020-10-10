@@ -4,6 +4,22 @@ Here you can find detailed logs of the changes in Kettu. [Click here](https://gi
 
 ## Version 3.1.2
 
+Added some new images to the social commands and removed some poor quality images.
+
+Flags are now supported in the edit command.
+
+Added how many vote points you have in the upvote command.
+
+Removed a users status icon in the profile command as we no longer get that data.
+
+Modified the source command to know give the image key in the footer.
+
+Fixed serval small typos and bugs.
+
+-------------
+
+## Version 3.1.2
+
 Fixed a bug that prevented any case from logging in the database if no mod log channel was set.
 
 Fixed the reason command so it now sets the reason for the case in the database as well as mod log. This command also sets the reason even if no mod log is set.
