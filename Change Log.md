@@ -10,11 +10,11 @@ Flags are now supported in the edit command.
 
 Added how many vote points you have in the upvote command.
 
-Removed a users status icon in the profile command as we no longer get that data.
+Removed user status in the profile command as we no longer get that data.
 
-Modified the source command to know give the image key in the footer.
+Modified the source command to now give the image key in the footer.
 
-Fixed serval small typos and bugs.
+Fixed several small typos and bugs.
 
 -------------
 
