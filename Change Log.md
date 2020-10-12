@@ -2,7 +2,7 @@
 
 Here you can find detailed logs of the changes in Kettu. [Click here](https://gideon-foxo.gitbook.io/kettu/change-log) to see all the change logs prior to V3.
 
-## Version 3.1.2
+## Version 3.1.3
 
 Added some new images to the social commands and removed some poor quality images.
 
