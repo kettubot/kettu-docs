@@ -2,6 +2,28 @@
 
 Here you can find detailed logs of the changes in Kettu. [Click here](https://gideon-foxo.gitbook.io/kettu/change-log) to see all the change logs prior to V3.
 
+## Version 3.1.4
+
+Added more responses to the cookie command.
+
+Added the Alias `rl` to the roleinfo command as well as allowing you to mention the role for the command.
+
+Removed bot and human count from the serverinfo command as we can no longer reliably get this information.
+
+Fixed the `uptime` in the ping and stats command to now show the correct uptime.
+
+Slightly updated the source command to make it cleaner.
+
+Slightly updated Kettu's status to look cleaner.
+
+Stability improvements.
+
+Fixed several typos.
+
+Fixed various bugs.
+
+-----------
+
 ## Version 3.1.3
 
 Added some new images to the social commands and removed some poor quality images.
