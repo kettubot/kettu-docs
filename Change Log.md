@@ -2,6 +2,30 @@
 
 Here you can find detailed logs of the changes in Kettu. [Click here](https://gideon-foxo.gitbook.io/kettu/change-log) to see all the change logs prior to V3.
 
+## Version 3.1.5
+
+Kettu now has a new icon
+
+A new feedback system was made with the `/feedback` command. Feel free to give us feedback about this update 😉
+
+Added reaction feedback to the `/source` command allowing users to rate or flag images in the social image pool.
+
+Added `unsuppress` to unsuppress embeds. (This happens when you click the small X on an embed).
+
+Configraidmode was redone to give more information and to be more clear.
+
+Fixed social delete from working at all.
+
+Fixed bug in the mute command that would stop it from responding at all.
+
+Fixed bug in the mute command causing the command to fail if a user had left the server.
+
+Self responses in social commands now respect the noembed status.
+
+Fixed several small typos.
+
+Fixed other various bugs.
+
 ## Version 3.1.4
 
 Added more responses to the cookie command.
