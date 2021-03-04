@@ -2,6 +2,18 @@
 
 Here you can find detailed logs of the changes in Kettu. [Click here](https://gideon-foxo.gitbook.io/kettu/change-log) to see all the change logs prior to V3.
 
+## Version 3.1.6
+
+Added the command `/takeemote` to add emotes into your sever by posting an emote and giving it a name.
+
+Added the command `/socialImage` which allows servers to globally disable social images (instead of having to use {noembed} in every channel topic). This option is also available on the [dashboard](https://kettu.cc/dash).
+
+Overhauled the `/id` command, it is now designed for emotes and neatly gives out an emote ID, helpful for emote servers.
+
+Fixed the `/about` command so it can now properly work in DMs.
+
+Fixed a few bugs and typos.
+
 ## Version 3.1.5
 
 Kettu now has a new icon
