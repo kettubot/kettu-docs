@@ -28,9 +28,9 @@ Aliases: `enlargeemoji`, `bigemoji`, `jumbo`, `emote`
 
 ---------
 
-**/id \<Object>**
+**/id \<emote>**
 
-Returns the ID of the object. The object can be a user, role, emote, channel ect.
+Neatly lists out an emote with its name and ID, useful for emote servers for making lists of emotes.
 
 ---------
 
@@ -79,6 +79,16 @@ This command syncs a channel with its category.
 Alias: `syncchannel`
 
 Permission Level: `MANAGE_CHANNELS`
+
+---------
+
+**/takeemote <emote> <name>**
+
+Adds an emote into the server the command is run in.
+
+Aliases: `steal`, `copy`
+
+Permission Level: `MANAGE_EMOJIS`
 
 ---------
 
