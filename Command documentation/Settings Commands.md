@@ -101,3 +101,13 @@ Displays the servers settings
 Aliases: `setting`, `serversettings`
 
 Permission Level: `MANAGE_GUILD`
+
+-----------
+
+**/socialimage [on/off]**
+
+Toggles if images are sent with social commands.
+
+Aliases: `setsocialimage`, `disableimages`
+
+Permission Level: `MANAGE_GUILD`
