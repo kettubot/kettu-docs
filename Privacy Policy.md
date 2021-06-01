@@ -11,7 +11,7 @@ Kettu collects and stores the following data in its database:
 - Guild Configuration
   - Guild ID
   - Prefix
-  - Moglog, modrole, muterole
+  - Modlog, modrole, muterole
   - *Other general settings*
 
 - Punishments
@@ -35,7 +35,7 @@ All aforementioned data is stored securely in a local database, which is not pub
 
 ## Usage of data
 
-Kettu stores data for the sole purpose of providing the advertised functionality either within Discord or through the website. This includes customisation of Guild Configuration and User Settings, voting rewards, punishment logs, and more.
+Kettu stores data for the sole purpose of providing the advertised functionality either within Discord or through the website. This includes customization of Guild Configuration and User Settings, voting rewards, punishment logs, and more.
 
 ### Sharing of data
 
@@ -43,7 +43,7 @@ Kettu does not share data with any third party services.
 
 ### Removal of personal data
 
-Kettu provides a `/delete` command, which allows any user to clear all of their 'User Settings' data. 
+Kettu provides a `/delete` command, which allows any user to clear all of their 'User Settings' data.
 
 ## Other concerns
 
