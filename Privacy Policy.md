@@ -1,49 +1,82 @@
 # Privacy Policy
 
-By using any version of Kettu (the Discord Bot), including Beta versions, or by interacting with Kettu's website, you agree to the data outlined in this policy being stored in order for Kettu to provide full functionality. This applies whether or not you have read these notices. In this policy, 'Kettu' refers to both the Discord Bot named 'Kettu' and its accompanying website (`*.kettu.cc`).
+By using any version of Kettu (the Discord Bot), including Beta versions, using Kettu's website, or interacting with Kettu's API in any way, you agree to the data outlined in this policy being stored in order for Kettu to provide full functionality. This applies whether or not you have read these notices. In this policy, 'Kettu' refers to both the Discord Bot named 'Kettu', its accompanying website (`*.kettu.cc`), and its API.
 
 ## Data collected
 
 Kettu collects and stores the following data in its database:
 
-**Required data (essential for operation):**
+**Essential data:**
 
 - Guild Configuration
   - Guild ID
   - Prefix
-  - Modlog, modrole, muterole
-  - *Other general settings*
+  - Log channel IDs, role IDs, etc
+  - *Other configuration settings*
 
-- Punishments
-  - Target user info (ID, tag, pfp)
-  - Mod info (ID, tag, pfp)
+- Cases (previously Punishments)
   - Guild ID
-  - *Other general information*
+  - Moderator ID (if applicable)
+  - User ID (if applicable)
+  - Channel ID (if applicable)
+  - User DM status (if applicable)
+  - *Other general information such as timestamp, strike value, etc*
 
-**Non-required data:**
+**Non-essential data:**
 
-- User Settings
+This data may be stored when certain features are enabled or it is directly provided by you, but is not essential for operation.
+
+- User Information
   - User ID
-  - Votes
-  - Badges
-  - Social command preferences
-  - *Other general cosmetics*
+  - Kettu permissions & flags (badges)
+  - Social & animal command preferences
+  - Profile information (bio, color, pronouns, timezone)
+  - *Other general cosmetics & settings*
+
+- Guild Channels
+  - Channel ID
+  - Enabled & disabled commands
+
+- Guild Members
+  - User ID
+  - Nitro boosting status
+
+**Anonymous analytics:**
+
+In some cases, we store information about the ways users interact with our bot and services. This data is anonymous and only used to inform our development of the bot.
+
+- Bot invites (and the source of the invite)
+- Guild joins/leaves
+- Command usage (including guild-specific command usage)
+- Web traffic
+
+**Special Cases:**
+
+For users above a certain permission level, IP verification is used for added security. This means that past IPs are stored in the database for a maximum of two weeks after the last time that IP was used to access any Kettu services. IPs are only stored when they are verified through the DM verification process. *This does not apply to the vast majority of users.*
 
 ### Storage of data
 
-All aforementioned data is stored securely in a local database, which is not publicly accessible.
+All aforementioned data is stored securely in a locally hosted database, which is not publicly accessible.
 
 ## Usage of data
 
-Kettu stores data for the sole purpose of providing the advertised functionality either within Discord or through the website. This includes customization of Guild Configuration and User Settings, voting rewards, punishment logs, and more.
+Kettu stores data for the sole purpose of providing the advertised functionality either within Discord or through the website & API.
 
-### Sharing of data
+At no point is any data, PII or not, shared with third party services.
 
-Kettu does not share data with any third party services.
+Access of data through Kettu's API is closely restricted to only allow access where required for essential functionality.
 
-### Removal of personal data
+### Managing Data
 
-Kettu provides a `k!delete` command, which allows any user to clear all of their 'User Settings' data.
+Kettu provides a `k!delete` command, which allows any user to clear all of their non-essential 'User Information' data.
+
+### Updates to the policy
+
+We regularly update this policy as changes are made to Kettu's services. We may choose to notify users of updates through announcements in our support server.
+
+Our documentation is hosted on GitHub, and as such, previous versions of this policy can be found [here](https://github.com/kettubot/kettu-docs/commits/master/Privacy%20Policy.md).
+
+We encourage you to regularly review this policy.
 
 ## Other concerns
 
