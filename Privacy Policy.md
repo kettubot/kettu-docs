@@ -43,7 +43,7 @@ Kettu does not share data with any third party services.
 
 ### Removal of personal data
 
-Kettu provides a `/delete` command, which allows any user to clear all of their 'User Settings' data.
+Kettu provides a `k!delete` command, which allows any user to clear all of their 'User Settings' data.
 
 ## Other concerns
 
