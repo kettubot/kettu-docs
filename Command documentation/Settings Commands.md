@@ -4,7 +4,7 @@ These commands set all of the configurable aspects of Kettu, from the prefix to 
 
 ## Command Reference
 
-**/commanddelete [on/off]**
+**k!commanddelete [on/off]**
 
 Sets whether or not to delete the social command inputs for the server.
 
@@ -14,7 +14,7 @@ Permission Level: `MANAGE_GUILD`
 
 -----------
 
-**/configraidmode [off/kick/ban] [joinRate] [Seconds]**
+**k!configraidmode [off/kick/ban] [joinRate] [Seconds]**
 
 Sets the anti raidmode settings.
 
@@ -24,7 +24,7 @@ Permission Level: `MANAGE_GUILD`
 
 -----------
 
-**/joinlog [#channel/ID]**
+**k!joinlog [#channel/ID]**
 
 Sets a channel for the join logs.
 
@@ -34,7 +34,7 @@ Permission Level: `MANAGE_GUILD`
 
 ----------
 
-**/modrole [@Role/ID]**
+**k!modrole [@Role/ID]**
 
 Sets a mod role for the server.
 
@@ -44,7 +44,7 @@ Permission Level: `MANAGE_GUILD`
 
 -----------
 
-**/modlog [#channel/ID]**
+**k!modlog [#channel/ID]**
 
 Sets a channel for the mod logs.
 
@@ -54,7 +54,7 @@ Permission Level: `MANAGE_GUILD`
 
 -----------
 
-**/muterole [@Role/ID]**
+**k!muterole [@Role/ID]**
 
 Sets the mute role for the server.
 
@@ -64,7 +64,7 @@ Permission Level: `MANAGE_GUILD`
 
 -----------
 
-**/nitro [setting name] [setting vaulue]**
+**k!nitro [setting name] [setting vaulue]**
 
 Views and sets the nitro boosting event. Run the command `/nitro help` to see more about setting the nitro message. Run the command `/nitro test` to test your current settings.
 
@@ -74,7 +74,7 @@ Permission Level: `MANAGE_GUILD`
 
 -----------
 
-**/prefix [newprefix]**
+**k!prefix [newprefix]**
 
 Change prefix for the server, or display the current prefix if no new prefix is provided.
 
@@ -84,7 +84,7 @@ Permission Level: `MANAGE_GUILD`
 
 -----------
 
-**/setselfrole <@Role/ID>**
+**k!setselfrole <@Role/ID>**
 
 Sets or removes roles for the selfrole command.
 
@@ -94,7 +94,7 @@ Permission Level: `MANAGE_GUILD`
 
 -----------
 
-**/settings**
+**k!settings**
 
 Displays the servers settings
 
@@ -104,7 +104,7 @@ Permission Level: `MANAGE_GUILD`
 
 -----------
 
-**/socialimage [on/off]**
+**k!socialimage [on/off]**
 
 Toggles if images are sent with social commands.
 

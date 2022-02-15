@@ -12,7 +12,7 @@ You can set moderation logs to log moderation actions against users such as bans
 
 ## Command Reference
 
-**/ban <@User/ID> [@User/ID]... [reason] [--nsfw] [--link= / image]**
+**k!ban <@User/ID> [@User/ID]... [reason] [--nsfw] [--link= / image]**
 
 This command bans bad Fluffballs. The NSFW flag removes the users avatar from the moderation log. The link flag adds an image to the reason, uploading an image also has the same result.
 
@@ -22,7 +22,7 @@ Permission Level: `BAN_MEMBERS`
 
 --------
 
-**/check <@User/ID>**
+**k!check <@User/ID>**
 
 Gives you general current punishment info about a user.
 
@@ -32,7 +32,7 @@ Permission Level: `BAN_MEMBERS`
 
 --------
 
-**/history <@User/ID> | <Case#>**
+**k!history <@User/ID> | <Case#>**
 
 Searches a user for their punishments if a user argument is given and gives more detailed info of a case if a case number is given.
 
@@ -42,7 +42,7 @@ Permission Level: `BAN_MEMBERS`
 
 --------
 
-**/kick <@User/ID> [@User/ID]... [reason] [--nsfw] [--link= / image]**
+**k!kick <@User/ID> [@User/ID]... [reason] [--nsfw] [--link= / image]**
 
 This command kicks a bad Fluffball. The NSFW flag removes the users avatar from the moderation log. The link flag adds an image to the reason, uploading an image also has the same result.
 
@@ -52,7 +52,7 @@ Permission Level: `BAN_MEMBERS`
 
 --------
 
-**/lockchannel [#channel/ID] [Reason] [--nsfw] [--hide]**
+**k!lockchannel [#channel/ID] [Reason] [--nsfw] [--hide]**
 
 Locks a channel, preventing people from speaking. [Click here](https://kettu.cc/docs/Guides/setting_up_lockchannel) to read a guide on how to set permissions up. The nsfw flag marks the channel as nsfw. The hide flag hides the channel.
 
@@ -62,7 +62,7 @@ Permission Level: `BAN_MEMBERS`
 
 --------
 
-**/lockserver**
+**k!lockserver**
 
 Locks a server, preventing people from speaking. [Click here](https://kettu.cc/docs/Guides/setting_up_lockserver) to read a guide on how to set permissions up.
 
@@ -72,13 +72,13 @@ Permission Level: `MANAGE_GUILD`
 
 --------
 
-**/mute <m/h/d/w/M/y/perm> <@User/ID> [@User/ID]... [reason] [--nsfw] [--link= / image]**
+**k!mute <m/h/d/w/M/y/perm> <@User/ID> [@User/ID]... [reason] [--nsfw] [--link= / image]**
 
 This command mutes a bad Fluffball. The NSFW flag removes the users avatar from the moderation log. The link flag adds an image to the reason, uploading an image also has the same result. An example time might be `2w4d` for 2 weeks and 4 days.
 
 --------
 
-**/pardon <Case#> [reason] [--nsfw] [--link= / image]**
+**k!pardon <Case#> [reason] [--nsfw] [--link= / image]**
 
 This command deletes a case/strike.
 
@@ -88,7 +88,7 @@ Permission Level: `BAN_MEMBERS`
 
 --------
 
-**/purge <limit> [#channel] [@User/ID] [m/h/d/w] ["content"] [\`regex content`] [bots] [onlyusers] [includepins] [embed] [link] [image]**
+**k!purge <limit> [#channel] [@User/ID] [m/h/d/w] ["content"] [\`regex content`] [bots] [onlyusers] [includepins] [embed] [link] [image]**
 
 Purges messages. Run the command with no arguments to see a list of all arguments.
 
@@ -96,7 +96,7 @@ Permission Level: `MANAGE_MESSAGES`
 
 --------
 
-**/raidmode [kick/ban/on/off]**
+**k!raidmode [kick/ban/on/off]**
 
 Sets the servers raidmode state if args are given, otherwise it returns the current mode.
 
@@ -104,7 +104,7 @@ Permission Level: `BAN_MEMBERS`
 
 --------
 
-**/reason <case> <new reason>**
+**k!reason <case> <new reason>**
 
 Changes the reason of a case.
 
@@ -112,7 +112,7 @@ Permission Level: `BAN_MEMBERS`
 
 --------
 
-**/slowmode <second(s)> [#channel/ID] [Reason]**
+**k!slowmode <second(s)> [#channel/ID] [Reason]**
 
 Sets a slowmode on a channel. If a channel is mentioned the slowmode will be set there.
 
@@ -122,7 +122,7 @@ Permission Level: `MANAGE_MESSAGES`
 
 --------
 
-**/softban <@User/ID> [@User/ID]... [reason] [--nsfw] [--link= / image]**
+**k!softban <@User/ID> [@User/ID]... [reason] [--nsfw] [--link= / image]**
 
 This command bans a bad Fluffball then unbans them deleting their last 24 hours of messages. The NSFW flag removes the users avatar from the moderation log. The link flag adds an image to the reason, uploading an image also has the same result.
 
@@ -132,7 +132,7 @@ Permission Level: `BAN_MEMBERS`
 
 --------
 
-**/strike <@User/ID> [@User/ID]... [reason] [--nsfw] [--link= / image] [--strike1-100]**
+**k!strike <@User/ID> [@User/ID]... [reason] [--nsfw] [--link= / image] [--strike1-100]**
 
 This command strikes a bad Fluffball. The NSFW flag removes the users avatar from the moderation log. The link flag adds an image to the reason, uploading an image also has the same result.
 
@@ -142,7 +142,7 @@ Permission Level: `BAN_MEMBERS`
 
 --------
 
-**/unban <@User/ID> [@User/ID]... [reason] [--nsfw] [--link= / image]**
+**k!unban <@User/ID> [@User/ID]... [reason] [--nsfw] [--link= / image]**
 
 This command unbans a Fluffball. The NSFW flag removes the users avatar from the moderation log. The link flag adds an image to the reason, uploading an image also has the same result.
 
@@ -152,7 +152,7 @@ Permission Level: `BAN_MEMBERS`
 
 --------
 
-**/unlockchannel [#channel/ID] [Reason] [--nsfw] [--hide]**
+**k!unlockchannel [#channel/ID] [Reason] [--nsfw] [--hide]**
 
 This command unlocks a channel. The nsfw flag unmarks the channel as nsfw. The unhide flag hides the channel.
 
@@ -162,7 +162,7 @@ Permission Level: `BAN_MEMBERS`
 
 --------
 
-**/unlockserver**
+**k!unlockserver**
 
 Unlocks the server.
 
@@ -172,7 +172,7 @@ Permission Level: `MANAGE_GUILD`
 
 --------
 
-**/unmute <@User/ID> [@User/ID]... [reason] [--nsfw] [--link= / image]**
+**k!unmute <@User/ID> [@User/ID]... [reason] [--nsfw] [--link= / image]**
 
 This command unmutes a poor Fluffball.
 

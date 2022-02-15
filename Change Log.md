@@ -4,13 +4,13 @@ Here you can find detailed logs of the changes in Kettu. [Click here](https://gi
 
 ## Version 3.1.6
 
-Added the command `/takeemote` to add emotes into your sever by posting an emote and giving it a name.
+Added the command `k!takeemote` to add emotes into your sever by posting an emote and giving it a name.
 
-Added the command `/socialImage` which allows servers to globally disable social images (instead of having to use {noembed} in every channel topic). This option is also available on the [dashboard](https://kettu.cc/dash).
+Added the command `k!socialImage` which allows servers to globally disable social images (instead of having to use {noembed} in every channel topic). This option is also available on the [dashboard](https://kettu.cc/dash).
 
-Overhauled the `/id` command, it is now designed for emotes and neatly gives out an emote ID, helpful for emote servers.
+Overhauled the `k!id` command, it is now designed for emotes and neatly gives out an emote ID, helpful for emote servers.
 
-Fixed the `/about` command so it can now properly work in DMs.
+Fixed the `k!about` command so it can now properly work in DMs.
 
 Fixed a few bugs and typos.
 
@@ -18,9 +18,9 @@ Fixed a few bugs and typos.
 
 Kettu now has a new icon
 
-A new feedback system was made with the `/feedback` command. Feel free to give us feedback about this update 😉
+A new feedback system was made with the `k!feedback` command. Feel free to give us feedback about this update 😉
 
-Added reaction feedback to the `/source` command allowing users to rate or flag images in the social image pool.
+Added reaction feedback to the `k!source` command allowing users to rate or flag images in the social image pool.
 
 Added `unsuppress` to unsuppress embeds. (This happens when you click the small X on an embed).
 
@@ -114,7 +114,7 @@ Fixed a few bugs and typos.
 
 ## Version 3.1.0
 
-Added join and leave logs. The command to set this up is `/joinlog [channel]`
+Added join and leave logs. The command to set this up is `k!joinlog [channel]`
 
 Added a new social command; Bellyrubs!
 

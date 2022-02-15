@@ -6,7 +6,7 @@ Social commands are commands that interact with other users such as boops, hugs,
 
 ## Command Reference
 
-**/bap <@User/ID>**
+**k!bap <@User/ID>**
 
 Baps a bad fluffball <img class="emoji" alt="Bap" src="https://cdn.discordapp.com/emojis/687780534424043629.png?v=1">
 
@@ -14,7 +14,7 @@ Aliases: `baps`, `wack`, `wacks`
 
 -------
 
-**/boop <@User/ID>**
+**k!boop <@User/ID>**
 
 Boops another fluffball.
 
@@ -22,7 +22,7 @@ Aliases: `boops`
 
 -------
 
-**/bellyrub <@User/ID>**
+**k!bellyrub <@User/ID>**
 
 Gives a fluffball some bellyrubs
 
@@ -30,7 +30,7 @@ Aliases: bellyrubs, rubsbelly
 
 ------------
 
-**/cookie <@User/ID>**
+**k!cookie <@User/ID>**
 
 Give another fluffball a cookie <img class="emoji" alt="Bap" src="https://cdn.discordapp.com/emojis/687769611093147670.png?v=1">
 
@@ -38,7 +38,7 @@ Aliases: `givecookie`, `cookies`
 
 -------
 
-**/hug <@User/ID>**
+**k!hug <@User/ID>**
 
 Gives another fluffball a huggo <img class="emoji" alt="Bap" src="https://cdn.discordapp.com/emojis/719682071802413208.gif?v=1">
 
@@ -46,7 +46,7 @@ Aliases: `hugs`, `huggo`
 
 -------
 
-**/kiss <@User/ID>**
+**k!kiss <@User/ID>**
 
 Kisses another fluffball.
 
@@ -54,7 +54,7 @@ Aliases: `kisses`
 
 -------
 
-**/lick <@User/ID>**
+**k!lick <@User/ID>**
 
 Licks another fluffball.
 
@@ -62,7 +62,7 @@ Aliases: `licking`, `licks`
 
 -------
 
-**/nom <@User/ID>**
+**k!nom <@User/ID>**
 
 Noms at another fluffball.
 
@@ -70,7 +70,7 @@ Aliases: `noms`
 
 -------
 
-**/nuzzle <@User/ID>**
+**k!nuzzle <@User/ID>**
 
 Nuzzles another fluffball.
 
@@ -78,7 +78,7 @@ Aliases: `nuzzles`
 
 -------
 
-**/pat <@User/ID>**
+**k!pat <@User/ID>**
 
 Pats another fluffball.
 
@@ -86,7 +86,7 @@ Aliases: `pats`, `pet`, `pets`
 
 -------
 
-**/pounce <@User/ID>**
+**k!pounce <@User/ID>**
 
 Pounces on another fluffball.
 
@@ -94,7 +94,7 @@ Aliases: `pounces`, `attack`, `attacks`
 
 -------
 
-**/snuggle <@User/ID>**
+**k!snuggle <@User/ID>**
 
 Snuggles another fluffball warmly.
 
@@ -102,7 +102,7 @@ Aliases: `snugs`, `snuggles`, `snug`, `cuddle`, `cuddles`
 
 -------
 
-**/zap <@User/ID>**
+**k!zap <@User/ID>**
 
 Gives another fluffball a zap >;)
 
