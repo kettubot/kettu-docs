@@ -29,6 +29,14 @@ Kettu collects and stores the following data in its database:
   - Social command preferences
   - *Other general cosmetics*
 
+**Usage of Message Content:**
+
+Message Content is used by Kettu to:
+  - Provide text-based command functionality
+  - Provide message content matching for filtering within the purge command
+
+The content of your messages - text and attachments - is never permanently stored by Kettu. This information may be temporarily stored in Kettu's message cache, but never for longer than an hour after the message was originally sent.
+
 ### Storage of data
 
 All aforementioned data is stored securely in a local database, which is not publicly accessible.
