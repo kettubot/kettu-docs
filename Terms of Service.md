@@ -6,7 +6,7 @@ Find previous revisions [here](https://github.com/kettubot/kettu-docs).
 
 ---
 
-These Terms of Service and the associated [Privacy Policy](/docs/privacy-policy) act as a legal agreement between Kettu ("we", "us", "our") and yourself. They apply as an extension of Discord's  [Terms of Service](https://discord.com/terms) and [Community Guidelines](https://discord.com/guidelines).
+These Terms of Service, including our [Privacy Policy](/docs/privacy-policy), act as a legal agreement between Kettu ("we", "us", "our") and yourself. They apply as an extension of Discord's  [Terms of Service](https://discord.com/terms) and [Community Guidelines](https://discord.com/guidelines).
 
 "Kettu" refers to the following services: the Discord bot "Kettu" (including any beta versions such as "Baby Kettu"), Kettu's Website (any web services accessible under `kettu.cc` or `*.kettu.cc`), Kettu's API, and the Discord bots "Sir Foxy" and "Gideon's Butler". When we say "Kettu", "we", "us", and "our" in these terms, we are referring to all of the above services.
 

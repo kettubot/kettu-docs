@@ -1,10 +1,20 @@
 # Privacy Policy
 
-By using any version of Kettu (the Discord Bot), including Beta versions, using Kettu's website, or interacting with Kettu's API in any way, you agree to the data outlined in this policy being stored in order for Kettu to provide full functionality. This applies whether or not you have read these notices. In this policy, 'Kettu' refers to both the Discord Bot named 'Kettu', its accompanying website (`*.kettu.cc`), and its API.
+Last updated & effective: May 24, 2022.
+
+Find previous revisions [here](https://github.com/kettubot/kettu-docs).
+
+---
+
+This document clarifies the ways in which we (Kettu) collect, store, use and protect your data throughout our services.
+
+This Privacy Policy applies as a part of our [Terms of Service](/docs/terms-of-service). Please refer to the Terms of Service for more information about specific definitions including "Kettu" and "the services".
+
+By using and interacting with any of the services, you agree to abide by the terms outlined in our [Terms of Service](/docs/terms-of-service), which by extension means you agree to the data outlined in this policy being collected and stored in order for Kettu to provide full functionality.
 
 ## Data collected
 
-Kettu collects and stores the following data in its database:
+Kettu collects and stores the following data through the services:
 
 **Essential data:**
 
@@ -43,7 +53,7 @@ This data may be stored when certain features are enabled or it is directly prov
 
 **Anonymous analytics:**
 
-In some cases, we store information about the ways users interact with our bot and services. This data is anonymous and only used to inform our development of the bot.
+In some cases, we store information about the ways users interact with our services. This data is anonymous and only used to inform our development of the services.
 
 - Bot invites (and the source of the invite)
 - Guild joins/leaves
@@ -60,9 +70,9 @@ All aforementioned data is stored securely in a locally hosted database, which i
 
 ## Usage of data
 
-Kettu stores data for the sole purpose of providing the advertised functionality either within Discord or through the website & API.
+Kettu stores data for the sole purpose of providing the advertised functionality for its services, within Discord or through the website & API.
 
-At no point is any data, PII or not, shared with third party services.
+At no point is any data shared with third party services. We take particular care in this regard for Personally Identifiable Information.
 
 Access of data through Kettu's API is closely restricted to only allow access where required for essential functionality.
 
@@ -72,11 +82,7 @@ Kettu provides a `k!delete` command, which allows any user to clear all of their
 
 ### Updates to the policy
 
-We regularly update this policy as changes are made to Kettu's services. We may choose to notify users of updates through announcements in our support server.
-
-Our documentation is hosted on GitHub, and as such, previous versions of this policy can be found [here](https://github.com/kettubot/kettu-docs/commits/master/Privacy%20Policy.md).
-
-We encourage you to regularly review this policy.
+We encourage you to regularly review this Privacy Policy and the associated [Terms of Service](/docs/terms-of-service). We will regularly update these resources as changes are made to Kettu's services, and in some cases we may choose to notify users of such updates through announcements in our support server. We will always provide a way to access previous revisions of these documents.
 
 ## Other concerns
 
