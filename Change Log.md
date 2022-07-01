@@ -4,6 +4,22 @@ Here you can find detailed logs of the changes in Kettu. [Click here](https://gi
 
 ## Version 3.1.6
 
+Added the ability to log raw moderation actions in the modlogs (bans, kicks, mutes). The mod log will say manual instead of giving a context link. This will not be enabled by default.
+
+Added the command rawlog to toggle the feature above.
+
+Added the raw log setting to the settings command.
+
+Added note about the raw log after you set the modlog channel.
+
+Fixed bug in the history command that would cause it break if you where searching a user without a profile picture.
+
+Fixed another bug causing strikes to not be stored correctly. 
+
+Some minor code clean up and optimization.
+
+## Version 3.1.6
+
 Added the command `k!takeemote` to add emotes into your sever by posting an emote and giving it a name.
 
 Added the command `k!socialImage` which allows servers to globally disable social images (instead of having to use {noembed} in every channel topic). This option is also available on the [dashboard](https://kettu.cc/dash).
