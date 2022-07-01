@@ -42,6 +42,16 @@ Alias: `setmodrole`
 
 Permission Level: `MANAGE_GUILD`
 
+----------
+
+**k!rawlog**
+
+Toggles logging manual bans, kicks and mutes from Discord natively.
+
+Aliases: `manuallog`, `rawlogs`
+
+Permission Level: `MANAGE_GUILD`
+
 -----------
 
 **k!modlog [#channel/ID]**
