@@ -2,7 +2,7 @@
 
 Here you can find detailed logs of the changes in Kettu. [Click here](https://gideon-foxo.gitbook.io/kettu/change-log) to see all the change logs prior to V3.
 
-## Version 3.1.6
+## Version 3.1.7
 
 Added the ability to log raw moderation actions in the modlogs (bans, kicks, mutes). The mod log will say manual instead of giving a context link. This will not be enabled by default.
 
