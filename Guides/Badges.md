@@ -54,7 +54,7 @@ Someone who has voted for Kettu on various sites. This badge is automatically gi
 
 <img class="emoji" alt="ArtHunter" src="https://cdn.discordapp.com/emojis/714985621751463989.png?v=1"> Art Hunter
 
-These people have helped find art images used in Kettu's social commands or suggested responses. [Click here](https://kettu.cc/docs/Guides/Suggesting) to learn how to suggest art and repsonses for Kettu!
+These people have helped find art images used in Kettu's social commands or suggested responses. [Click here](https://kettu.cc/docs/Guides/Suggesting) to learn how to suggest art and responses for Kettu!
 
 --------
 
