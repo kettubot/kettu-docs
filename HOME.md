@@ -20,6 +20,6 @@ After reading this documentation, if you still need help, please ask us in Kettu
 
 ## Special Thanks
 
-Kettu would not be possible without the many developers who have worked on Kettu. [Develon#0250](https://gitlab.com/Develon5543), [eeeeeehhhhh#3706](https://github.com/LachlanWalls), [jac.k12#9409](https://github.com/Jack073) and [Frogmaster#4102](https://github.com/1frogmaster98).
+Kettu would not be possible without the many developers who have contributed to Kettu [eeehh#2247](https://github.com/LachlanWalls), [jac.k12#9409](https://github.com/Jack073), [Ben!#0002](https://github.com/Benricheson101) and [Riku#9814](https://gitlab.com/Riku5543),.
 
 There are more people behind just the development of Kettu and the list of contributors is ever growing. To see a complete list of contributors, run the command `/contributors` in your server.
