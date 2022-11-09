@@ -15,7 +15,7 @@ After reading this documentation, if you still need help, please ask us in Kettu
 ## Important Links
 
 - [Support Server](https://discordapp.com/invite/4Bavumy)
-- [Invite Kettu](https://kettu.dynodel.com/invite?ref=docs)
+- [Invite Kettu](https://kettu.cc/invite?ref=docs)
 - [Review Kettu](https://bots.ondiscord.xyz/bots/667131062941384757/review)
 
 ## Special Thanks
