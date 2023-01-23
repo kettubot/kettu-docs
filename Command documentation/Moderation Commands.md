@@ -66,7 +66,7 @@ Permission Level: `BAN_MEMBERS`
 
 Locks a server, preventing people from speaking. [Click here](https://kettu.cc/docs/Guides/setting_up_lockserver) to read a guide on how to set permissions up.
 
-Aliases: `lc`, `lock`
+Aliases: `ls`, `lockdown`
 
 Permission Level: `MANAGE_GUILD`
 
