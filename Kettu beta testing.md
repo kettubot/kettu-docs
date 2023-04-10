@@ -1,4 +1,4 @@
-# Kettu Beta Testing Program
+# Kettu Beta Testing
 
 Have you ever wanted to give feedback or test the new latest and greatest Kettu features? Fret not dear reader! For the Kettu beta testing program is here!
 
