@@ -1,14 +1,14 @@
 # Slash default override
 
-Kettu by default lets user use both text or slash commands. Text commands respects slash commands permissions (server settings -> Integrations -> Kettu) as if they where slash commands. When slash default override is **enabled** it allows you to disable the `@everyone` permission without affecting text commands. This allows users to use text commands while effectively disabling slash commands 
+Kettu by default lets user use both text or slash commands. Text commands respects slash command permissions (server settings -> Integrations -> Kettu) as if they where slash commands. When slash default override is **enabled** it allows you to disable the `@everyone` permission without affecting text commands. This allows users to use text commands while effectively disabling slash commands. 
 
 ## Lets break that down
 
-What does disabling `@everyone` do? It removes the ability for users to use (and see) slash commands unless there is another override that overrides it. If you where to do this without enabling slash default override it would effectively make the commands unusable for anyone but the server admins. Enabling this however lets text commands ignore this permission and continue to operate normally.
+What does disabling `@everyone` do? It removes the ability for users to use (and see) slash commands unless there is another override that overrides it. If you where to disable `@everyone` without enabling slash default override it would prevent any users from using text or slash commands unless they have admin permissions. Enabling this however lets text commands ignore this permission and continue to operate normally.
 
 ![@everyone disabled](https://cdn.discordapp.com/attachments/1089370527518433282/1096855197961166979/Discord_2IpOQvpuXa.png)
 
-What about all the other types of overrides? How are they affected? Enabling slash default override **only** affects the `@everyone` permissions meaning that any **other** overrides you make will still be respected by text commands.
+What about all the other of overrides? How are they affected? Enabling slash default override **only** affects the `@everyone` permission meaning that **any other** overrides will still be respected by text commands.
 
 Lets make an example, if you add a channel override in the hug command for `#the-ultimate-hugging-zone` and an override disabling `All Channels` the hug command will only be able to be used in the ultimate hugging zone.
 
