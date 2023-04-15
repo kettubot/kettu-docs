@@ -2,7 +2,7 @@
 
 Kettu by default lets user use text or slash commands however, text commands respects slash commands permissions as if they where slash. Slash default override will override the default permissions (@everyone) allowing text commands to be used even if slash is not. 
 
-For example, if you add a channel override for #the-ultimate-hugging-zone and an override disabling all channels any time a user attempts to run the k!hug command they will get an error messages. In this instance the hug slash command will not appear for the user. 
+For example, if you add a channel override for `#the-ultimate-hugging-zone` and an override disabling `all channels` any time a user attempts to run the k!hug command they will get an error messages. In this instance the hug slash command will not appear for the user. 
 
 ![Hug command with overrides](https://cdn.discordapp.com/attachments/1089370527518433282/1096852389908201533/Discord_im912pjFYg.png)
 
