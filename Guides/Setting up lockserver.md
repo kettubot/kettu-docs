@@ -36,13 +36,13 @@ Once finished make sure to apply any changes you made to your sandbox server on 
 
 ## Other things to note
 
-Users with the administrator permission will always be able to speak and view every channel in the server, there is no way around this. 
+- Users with the administrator permission will always be able to speak and view every channel in the server, there is no way around this. 
 
-Make sure your staff and bot roles have the permissions Kettu revokes so they can continue to function normally during a lockdown.
+- Make sure your staff and bot roles have the permissions Kettu revokes so they can continue to function normally during a lockdown.
 
-Kettu will only restore permissions it revoked when the lock server command was run. It will not enable permissions that where previously not enabled.
+- Kettu will only restore permissions it revoked when the lock server command was run. It will not enable permissions that where previously not enabled.
 
-Kettu uses this approach instead of enabling channel overrides and every single channel for speed. This method makes locking a server almost instant and avoids potential issues with ratelimits of modifying so many channels at once.
+- Kettu uses this approach instead of enabling channel overrides and every single channel for speed. This method makes locking a server almost instant and avoids potential issues with ratelimits of modifying so many channels at once.
 
 ### Still need help? 
 
