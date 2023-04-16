@@ -1,10 +1,10 @@
 # Slash default override
 
-Kettu by default lets user use both text or slash commands. Text commands respects slash command permissions (server settings -> Integrations -> Kettu) as if they where slash commands. When slash default override is **enabled** it allows you to disable the `@everyone` permission without affecting text commands. This allows users to use text commands while effectively disabling slash commands. 
+Kettu by default lets user use both text or slash commands. Text commands respects slash command permissions (server settings -> Integrations -> Kettu) as if they were slash commands. When slash default override is **enabled** it allows you to disable the `@everyone` permission without affecting text commands. This allows users to use text commands while effectively disabling slash commands. 
 
 ## Lets break that down
 
-What does disabling `@everyone` do? It removes the ability for users to use (and see) slash commands unless there is another override that overrides it. If you where to disable `@everyone` without enabling slash default override it would prevent any users from using text or slash commands unless they have admin permissions. Enabling this however lets text commands ignore this permission and continue to operate normally.
+What does disabling `@everyone` do? It removes the ability for users to use (and see) slash commands unless there is another override that overrides it. If you were to disable `@everyone` without enabling slash default override it would prevent any users from using text or slash commands unless they have admin permissions. Enabling this however lets text commands ignore this permission and continue to operate normally.
 
 ![@everyone disabled](https://cdn.discordapp.com/attachments/1089370527518433282/1096855197961166979/Discord_2IpOQvpuXa.png)
 
@@ -22,8 +22,10 @@ This approach lets you fine tune your commands to suit your needs natively in Di
 
 ## Other things to note
 
-Users with the administrator permissions will always be able to see and use slash commands in all channels. There is no easy or effective way around this. 
+- Users the Administrator permission will always be able to see and use slash commands in all channels. There is no easy or effective way around this. 
 
-You can still allow slash commands to be used if you enable `@everyone` in the command directly.
+- You can still allow slash commands to be used if you enable `@everyone` in the command directly.
 
-Still confused or need help? Come ask in our [support server](https://discordapp.com/invite/4Bavumy).
+### Still need help? 
+
+Come join Kettu's [support server](https://discordapp.com/invite/4Bavumy).
