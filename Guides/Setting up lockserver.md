@@ -47,5 +47,3 @@ Once finished make sure to apply any changes you made to your sandbox server on 
 ### Still need help? 
 
 Come join Kettu's [support server](https://discordapp.com/invite/4Bavumy).
-
-
