@@ -16,13 +16,13 @@ By using any of the services, you agree to abide by the terms described in our [
 
 The following list describes all data that Kettu stores and collects through your use of the services, which may be related to you as a user or directly provided by you.
 
-**Guild Configurations**
+### Guild Configurations
 
 Guild configuration data is essential for Kettu.
 
 You can delete all guild data including guild configuration data within the `k!settings` command.
 
-**Guild Members**
+### Guild Members
 
 Guild member data is essential when using Kettu's boost messages feature.
 
@@ -34,7 +34,7 @@ Guild member data is stored if your guild has been audited. You can use the 'Del
 
 You can also delete all guild data including guild member data within the `k!settings` command.
 
-**Guild Cases** (previously known as Punishments)
+### Guild Cases (previously known as Punishments)
 
 Guild case data is essential when using Kettu's moderation commands.
 
@@ -48,7 +48,7 @@ You can delete all guild case data within the `k!settings` command. However, thi
 
 You can also delete all guild data including guild case data within the `k!settings` command.
 
-**Users**
+### Users
 
 User data is essential for Kettu.
 
@@ -61,7 +61,7 @@ User data includes:
 
 You can use the `k!delete` command to delete all of your user data. However, this data will be collected again if you continue to use Kettu.
 
-**Non-essential Analytics**
+### Non-essential Analytics
 
 We collect information about the ways users interact with our services. This data includes usage of Kettu and traffic to our web servers, and it is always anonymised. We only use this data to inform our future development of Kettu.
 
@@ -71,11 +71,11 @@ You can use the `k!stoptracking` command to toggle whether or not we collect non
 
 You can use the `k!delete` command to delete all of your user data, including social command history. Since other analytics data is anonymised, we cannot retroactively delete it.
 
-**Monitoring**
+### Monitoring
 
 We use automated monitoring to ensure our services are used legitimately. Monitoring data is collected for a short period of time and includes command usage & API traffic. This data is essential for us to continue operating safely.
 
-### Storage of data
+## Storage of data
 
 Data is stored in Kettu's network with appropriate security measures in place, and is never exposed to the public. We will take effort to remain transparent and notify you as soon as possible if we believe any breach of data has occurred.
 
@@ -84,10 +84,6 @@ Data is stored in Kettu's network with appropriate security measures in place, a
 We store data for the sole purpose of providing functionality in our services, within Discord or through our web services & API.
 
 Under no circumstances is any user data shared with third parties.
-
-### Updates to the policy
-
-We encourage you to regularly review this Privacy Policy and the associated [Terms of Service](/docs/terms-of-service). We will regularly update these resources as changes are made to the services, and in more significant cases we may notify users of such updates through announcements in our support server. We will always provide a way to access previous revisions of these documents.
 
 ## Other concerns
 

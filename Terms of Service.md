@@ -10,7 +10,7 @@ These Terms of Service, including our [Privacy Policy](/docs/privacy-policy), ac
 
 "Kettu" refers to the following services: the Discord bot "Kettu" (including the beta versions "Baby Kettu", "Kettu Beta" and "Kettu Gamma"), Kettu's Websites (which encompasses any web services accessible via `kettu.cc` or `*.kettu.cc`), Kettu's API, and additionally the Discord bots "Sir Foxy" and "Gideon's Butler". When we say "Kettu", "we", "us", and "our" in these terms, we are referring to all of the above services.
 
-We encourage you to regularly review these terms and the associated [Privacy Policy](/docs/privacy-policy). We will regularly update these resources as changes are made to Kettu's services, and in some cases we may choose to notify users of such updates through announcements in our support server. We will always provide a way to access previous revisions of these documents.
+We encourage you to regularly review these terms and the associated [Privacy Policy](/docs/privacy-policy). We will regularly update these resources as changes are made to the services, and in more significant cases we may notify users of such updates through announcements in our support server. We will always provide a way to access previous revisions of these documents.
 
 ## Conditions
 
