@@ -2,7 +2,7 @@
 
 Last updated & effective: April 24, 2023.
 
-Find previous revisions [here](https://github.com/kettubot/kettu-docs).
+Find previous revisions [here](https://github.com/kettubot/kettu-docs/commits/master/Privacy%20Policy.md).
 
 ---
 

@@ -2,7 +2,7 @@
 
 Last updated & effective: April 24, 2023.
 
-Find previous revisions [here](https://github.com/kettubot/kettu-docs).
+Find previous revisions [here](https://github.com/kettubot/kettu-docs/commits/beta/Terms%20of%20Service.md).
 
 ---
 
@@ -47,4 +47,4 @@ We may provide use of third-party services within or in conjunction to our servi
 
 ## Contact
 
-To contact us in relation to these Terms, our Privacy Policy, or for any other inquiry, please [join our support server](https://kettu.cc/support).
+To contact us in relation to these Terms, our Privacy Policy, or for any other inquiry, please [join our support server](https://discordapp.com/invite/4Bavumy).
