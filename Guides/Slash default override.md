@@ -22,7 +22,7 @@ This approach lets you fine tune your commands to suit your needs natively in Di
 
 ## Other things to note
 
-- Users the Administrator permission will always be able to see and use slash commands in all channels. There is no easy or effective way around this. 
+- Users with the Administrator permission will always be able to see and use slash commands in all channels. There is no easy or effective way around this. 
 
 - You can still allow slash commands to be used if you enable `@everyone` in the command directly.
 

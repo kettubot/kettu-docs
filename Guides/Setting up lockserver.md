@@ -10,7 +10,7 @@ For this to work ideally these permissions should only exist on the `@everyone` 
 
 ![Remove permissions button](https://cdn.discordapp.com/attachments/1089370527518433282/1097234190937886720/Discord_DiDsYl69rq.png)
 
-Not only do you have to make sure your role permissions are set correctly, your channel permissions are also important too! If you have any channel overrides enabling (that means set to ✅) any of the permissions Kettu revokes then the affect will be lost in that channel. For example if a channel has the `Send Message` permissions override enabled users will still be able to send messages there. Or if a channel has `Connect` override enabled users will still be able to connect to it.
+Not only do you have to make sure your role permissions are set correctly, your channel permissions are also important too! If you have any channel overrides enabling (that means set to ✅) any of the permissions Kettu revokes then the effect will be lost in that channel. For example if a channel has the `Send Message` permissions override enabled users will still be able to send messages there. Or if a channel has `Connect` override enabled users will still be able to connect to it.
 
 It is a good practice to only set channel overrides where strictly necessary. 
 
