@@ -4,7 +4,7 @@ From banning to striking, locking channels down and more, Kettu has powerful too
 
 Want to learn more about how to use Kettu for moderation? We got you covered, check out our [moderation guide](https://kettu.cc/docs/guides/moderation-guide)!
 
-If you moderate serval users Kettu will return an emote to indicate the DM status. ✅ DM sent, ❌ DM not sent (not in server), 🚫 DM failed (closed DMs), 🤐 DM not sent (silent)
+If you moderate several users Kettu will return an emote to indicate the DM status. ✅ DM sent, ❌ DM not sent (not in server), 🚫 DM failed (closed DMs), 🤐 DM not sent (silent)
 
 User mod commands support 5 users on slash commands and no limit with text commands.
 
@@ -31,7 +31,7 @@ Permission Level: `BanMembers`
 
 -------
 
-**k!check or / <@user/id>**
+**k! check or / <@user/id>**
 
 Gives you useful information about a user and their moderation status/history
 
@@ -64,7 +64,7 @@ Permission Level: `BanMembers`
 **k!kick** <@user/id> [users...] [time/#w#d#m] [reason] [--link=linkURL/image] [--nsfw] [--silent]
 **/kick <user> [users...] [reason] [image] [silent] [nsfw]
 
-Kicks a bad fluffball. User needs to be in a server to be kicked.
+Kicks a bad fluffball. User needs to be in the server to be kicked.
 
 Aliases: `k``
 
@@ -126,7 +126,7 @@ Permission Level: `BanMembers`
 
 **k! or / slowmode <time> [channel] [reason]**
 
-Sets slowmode on a channel. Useful to making a chat chill out.
+Sets slowmode on a channel. Useful for making the chat chill out.
 
 Aliases: `slow`, `sm`, `setslowmode`
 
@@ -201,7 +201,7 @@ Permission Level: `ModerateMembers `
 **k!unstrike  <@user/id> [users...] [strikes] [reason] [--link=linkURL/image] [--nsfw]**
 **/unstrike  <user> [users...] [strikes] [reason] [image] [nsfw]**
 
-Strikes a bad fluffball. Check a users strikes with the caseHistory command
+Removes strikes from a user. Use the check command to view a users current amount of strikes.
 
 Aliases: `pardon`, `removewarn`
 

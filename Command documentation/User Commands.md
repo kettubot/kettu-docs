@@ -15,7 +15,7 @@ Aliases: `deletemydata`, `deletedata`, `cleardata`
 
 Allows you to view other users preferences or modify your own
 
-Aliases: `pref`, 1socialdisable1, 1userpreferences`
+Aliases: `pref`, `socialdisable`, `userpreferences`
 
 -------
 

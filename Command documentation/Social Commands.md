@@ -17,7 +17,7 @@ Aliases: `baps, bonk, bonks`
 
 -------
 
-**k!bellyru <@user/username/id/everyone> [users...]**
+**k!bellyrub <@user/username/id/everyone> [users...]**
 **/bellyrub <user> [users...]**
 
 Gives a fluffball belly rubs
@@ -40,7 +40,7 @@ Aliases: `boops`
 
 Gives another fluffball a cookie 🍪
 
-Aliases: `givecookie, `cookies`
+Aliases: `givecookie`, `cookies`
 
 -------
 
