@@ -27,6 +27,8 @@ By far the social category is Kettu's most used category's and we have showered 
 
 - To flag images you now need to use the flag command! This helps us learn more about why uses are flagging images to better help us handle problematic images.
 
+- Image feedback is now stored! Now we can see what images you really do or don't like
+
 - Kettu's image pool has been updated! We now have higher quality standards, expect to see new images slowly be added overtime
 
 - Added new self, general and Kettu responses
@@ -72,6 +74,10 @@ Kettu moderation commands got improvements across the board. They should now act
 - Kettu now has warning logs, sends out a warning message about anything issues that are not a command, e.g. the bot cant send a mod log or join log message
 
 - All information commands have been overhauled with new features and facelifts
+
+- Join and leave logs have been updated to give more info and be more compact. Leave logs also now fire even if a user isnt cached
+
+- Added screened logs
 
 - Profile has been overhauled and now supports server avatars
 
