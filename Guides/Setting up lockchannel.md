@@ -1,4 +1,4 @@
-# Setting up lockserver
+# Setting up lockchannel
 
 Kettu's lock channel command allows you to lock a channel in a moments notice! To achieve this Kettu revokes `Send Messages`, `Send Messages in Threads`, `Create Public Threads`, `Create Private Threads`, and `connect` permissions from the provided channel.
 
