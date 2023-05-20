@@ -19,7 +19,7 @@ We also highly recommend recommend updating Kettu's prefix if it is `/` as this 
 
 By far the social category is Kettu's most used category's and we have showered it with love
 
-- Kettu now uses its own cdn for the social images, this means images should load faster and you should never get an image that never loads! Kettu still check the original image source once a day to make sure it still exists. Ff it is removed Kettu automatically removes it from the image pool.
+- Kettu now uses its own cdn for the social images, this means images should load faster and you should never get an image that never loads! Kettu still check the original image source once a day to make sure it still exists. If it is removed Kettu automatically removes it from the image pool.
 
 - All social commands now support up to 5 users. Group hugs go brrrrr. Kettu now also supports names in addition to mentions and IDs, now you can go k!hug gideon! Hugging your friends has never been easier
 
