@@ -31,7 +31,7 @@ Permission Level: `BanMembers`
 
 -------
 
-**k! check or / <@user/id>**
+**k! or / check <@user/id>**
 
 Gives you useful information about a user and their moderation status/history
 
@@ -51,7 +51,7 @@ Permission Level: `BanMembers`
 
 -------
 
-**k! or editcase <case-id> <new-reason>**
+**k! or / editcase <case-id> <new-reason>**
 
 Updates the reason for a case
 
@@ -61,8 +61,8 @@ Permission Level: `BanMembers`
 
 -------
 
-**k!kick** <@user/id> [users...] [time/#w#d#m] [reason] [--link=linkURL/image] [--nsfw] [--silent]
-**/kick <user> [users...] [reason] [image] [silent] [nsfw]
+**k!kick <@user/id> [users...] [time/#w#d#m] [reason] [--link=linkURL/image] [--nsfw] [--silent]**
+**/kick <user> [users...] [reason] [image] [silent] [nsfw]**
 
 Kicks a bad fluffball. User needs to be in the server to be kicked.
 
@@ -77,13 +77,13 @@ Permission Level: `BanMembers`
 
 Locks a channel preventing people from sending messages. [Click here](https://dev.kettu.cc/docs/guides/setting-up-lockchannel) to read our guide on how to set it up. If nsfw flag is provided it marks the channel as nsfw, and if hide flag is added it hides the channel from users.
 
-Aliases: ` lc`, `lock`
+Aliases: `lc`, `lock`
 
 Permission Level: `BanMembers`
 
 -------
 
-**k! or /lockserver [reason]**
+**k! or / lockserver [reason]**
 
 Locks the server so normal users can not speak in it. [Click here](https://dev.kettu.cc/docs/guides/setting-up-lockserver) to read our guide on how to set this up.
 
