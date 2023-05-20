@@ -3,6 +3,20 @@
 Here you can find detailed logs of the changes and updates for Kettu. You can follow these logs in your own server if you join our [support server](https://discordapp.com/invite/4Bavumy). Want to take a step back in time and look at previous change logs? [Version 3](https://github.com/kettubot/kettu-docs/blob/48398938f4c5b39c8a21bfa79db9582dba9c11e7/Change%20Log.md) [Version 2](https://gideon-foxo.gitbook.io/kettu/change-log).
 
 
+## Version 4.0.1
+
+Fixed bug causing preference data to be incorrectly transferred from v3 to v4. **All** user preferences have been reverted to the last v3 state
+
+Fixed bug causing slash commands to not populate
+
+Fixed bugs with the bird, cat, dog, ferret, fox, kangaroo, koala, panda, racoon, and redpanda commands causing them to always "failed to fetch image :c"
+
+Fixed bug where the preference command failed to recognize the ferret, kangaroo, and raccoon commands
+
+Fixed the bellyrub, nom, nuzzle, and pounce command from returning bap self responses
+
+Preference command now displays member avatar instead of the user avatar
+
 ## Version 4.0.0
 
 ### General Improvements
