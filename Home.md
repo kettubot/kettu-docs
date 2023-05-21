@@ -2,14 +2,14 @@
 
 Welcome to Kettu's documentation. Kettu is a fully safe for work (SFW) furry Discord bot designed to keep your server members happy and safe. You can invite Kettu [here](https://kettu.cc/invite?ref=docs).
 
-When you invite Kettu into your server the default text prefix will be `k!` as well as Discord slash commands. Most commands run both on slash and text commands but some expectations exist. Likewise most commands act the same across text and slash commands but some expectations exist.
+When you invite Kettu into your server the default text prefix will be `k!` as well as supporting Discord's slash commands. Most commands run as both slash and text commands, but some exceptions exist. Likewise most commands act the same across text and slash commands but some exceptions exist.
 
 
 ## Understanding the syntax
 
-`[]` Optional augments.
+`[]` Optional arguments.
 
-`<>` Required augments.
+`<>` Required arguments.
 
 `k!` Text prefix, default is k! but this can be changed by the server.
 

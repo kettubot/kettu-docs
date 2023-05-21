@@ -1,10 +1,10 @@
 # Setting up lockchannel
 
-Kettu's lock channel command allows you to lock a channel in a moments notice! To achieve this Kettu revokes `Send Messages`, `Send Messages in Threads`, `Create Public Threads`, `Create Private Threads`, and `connect` permissions from the provided channel.
+Kettu's lock channel command allows you to lock a channel in a moment's notice! To achieve this Kettu revokes `Send Messages`, `Send Messages in Threads`, `Create Public Threads`, `Create Private Threads`, and `connect` permissions from the provided channel.
 
 ## Lets break that down
 
-Kettu handles channels smartly, it handles differently based on what channel type it is, e.g. text, category, voice channel ect. The lock channel also has the `nsfw` and `hide` options. The nsfw option marks the channel as nsfw and the hide option revokes `ViewChannel` permissions effectively hiding the channel from users. Useful for locking a channel to report content to Discord!
+Kettu handles channels differently based on what channel type it is, e.g. text, category, voice channel ect. The lock channel also has the `nsfw` and `hide` options. The nsfw option marks the channel as nsfw and the hide option revokes `ViewChannel` permissions effectively hiding the channel from users. Useful for locking a channel to report content to Discord!
 
 Down below is a list of all the ways it handles channels
 
@@ -16,7 +16,7 @@ Down below is a list of all the ways it handles channels
 
 - Category Channel: revokes `SendMessages` & `Connect`, supports hide arguments
 
-To make sure Kettu lockchannel is effect make sure no normal user has any of the listed perms above as a channel override. Make sure however, that your staff team, Kettu and any other bots or users you want have these perms set as an override so they can continue speaking normally during a lock down.
+To make sure Kettu lockchannel is effective make sure no normal user has any of the listed perms above as a channel override. Make sure however that your staff team, Kettu and any other bots or users you want have these perms set as an override so they can continue speaking normally during a lock down.
 
 ## How to test
 
@@ -34,7 +34,7 @@ From this view you can also add or remove other roles users might have to check 
 
 - Make sure your staff and bot roles have the permissions Kettu revokes so they can continue to function normally during a lockdown.
 
-- Kettu will only restore permissions it revoked when the lock server command was run. It will not enable permissions that where previously not enabled.
+- Kettu will only restore permissions it revoked when the lock server command was run. It will not enable permissions that were previously not enabled.
 
 ### Still need help? 
 

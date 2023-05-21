@@ -1,10 +1,10 @@
 # The Ultimate Kettu Moderation Guide
 
-Kettu has many powerful moderation commands to help keep your server safe from bad actors, in this guide we will break all of Kettu's moderation features in depth. If you havent already check out our [moderation command reference](https:// kettu.cc/docs/command-documentation/moderation-commands) to learn more about individual command syntaxes.
+Kettu has many powerful moderation commands to help keep your server safe from bad actors, in this guide we will break down all of Kettu's moderation features in depth. If you haven't already, check out our [moderation command reference](https://kettu.cc/docs/command-documentation/moderation-commands) to learn more about individual command syntaxes.
 
 ## User Moderation Commands
 
-Unlike most Kettu commands, the user moderation commands act slightly differently between slash and text commands. Slash commands can only support a max of 5 users while text can handle as many as you can fit in 2000 charters (or 4000 for those nitro users). Slash commands also have easy to use options where as text commands have flags, e.g. --nsfw, --silent, --bandelete=5 ect. 
+Unlike most Kettu commands, the user moderation commands act slightly differently between slash and text commands. Slash commands can only support a max of 5 users while text can handle as many as you can fit in 2000 characters (or 4000 for those nitro users). Slash commands also have easy to use options whereas text commands have flags, e.g. --nsfw, --silent, --bandelete=5 ect. 
 
 Flags are a way to add extra options into a command, the current flags you will see:
 
@@ -14,7 +14,7 @@ Flags are a way to add extra options into a command, the current flags you will 
 
 - --image=URLtoImage Lets you add an image from a link instead of uploading a screen shot, make sure to include the = !
 
-- --bandelete=number Lets you set the number of days to delete messages upon a ban. Must be between 0 to 7. By default it is 0, however you can change your servers default ban time
+- --bandelete=number Lets you set the number of days to delete messages upon a ban. Must be between 0 to 7. By default it is 0, however you can change your server's default ban time
 
 Listed below are Kettu's user mod commands with their general syntax
 
@@ -28,7 +28,7 @@ Listed below are Kettu's user mod commands with their general syntax
 
 - Strike [users] [strikes] [reason] [image] [nsfw] [silent] Gives a user a strike. By default it gives out 1 strike but you can give out more strikes by providing a number. Strikes can not be 0 or negative. 
 
-- Unban [users] [reason] [image] [nsfw] Unbans users. No DM is ever sent (because they cant be in the server).
+- Unban [users] [reason] [image] [nsfw] Unbans users. No DM is ever sent (because they can't be in the server).
 
 - Unmute [users] [reason] [image] [nsfw] [silent] Unmutes users.
 
@@ -56,13 +56,13 @@ In addition to the caseinfo command Kettu also has a check command to help find 
 
 ## Channel Moderation Commands
 
-- Slowmode [time] [channel] [reason] Lets you modify a channels slowlow in a moments notice! Must be between 0 and 21600 seconds.
+- Slowmode [time] [channel] [reason] Lets you modify a channels slowlow in a moment's notice! Must be between 0 and 21600 seconds.
 
 - Lockchannel [channel] [reason] [nsfw] [hide] Locks down a channel prevent users from speaking, [click here](https://kettu.cc/docs/guides/setting-up-lockchannel) to learn more about how to set this up. If the nsfw flag is added Kettu will mark the channel as nsfw until the channel is unlocked. The hide flag will hide the channel from users until the channel is unlocked.
 
 - Lockserver [reason] Locks down a server from speaking. [Click here](https://dev.kettu.cc/docs/guides/setting-up-lockserver) to learn more about how to set it up
 
-- Unlockchannel [channel] [reason] Unlocks a channel. This will automatically remove any flags that where applied when the channel got locked.
+- Unlockchannel [channel] [reason] Unlocks a channel. This will automatically remove any flags that were applied when the channel got locked.
 
 - Unlockserver [reason] Unlocks a server allowing users to speak again.
 
@@ -72,7 +72,7 @@ Kettu has a raidmode that can stop help handle raids, this can be operated manua
 
 Use the `raidmode` command to view Kettu's current raidmode status. Kettu has 4 different action options:
 
-- ban$$
+- ban
 - kick
 - pause server invites
 - nothing

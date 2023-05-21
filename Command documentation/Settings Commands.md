@@ -1,6 +1,6 @@
 # Settings Commands
 
-Most of Kettu's settings can be configured with the settings command or Kettu's [dashboard](https://kettu.cc/dash). The only expectations to this is nitro which is temporally only available on the dashboard and setselfrole because this is a legacy function.
+Most of Kettu's settings can be configured with the settings command or Kettu's [dashboard](https://kettu.cc/dash). The only exception to this is nitro which is temporally only available on the dashboard and setselfrole because this is a legacy function.
 
 ## Command Reference
 

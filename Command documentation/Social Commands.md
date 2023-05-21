@@ -1,6 +1,6 @@
 # Social Commands
 
-From booping to hugging, snuggling and bapping, Kettu has a social command for you! Social commands support a max of 5 users at once. If kettu responses with an image in a social command you can react with 👍 or 👎 within 90 seconds to add feedback to the image.
+From booping to hugging, snuggling and bapping, Kettu has a social command for you! Social commands support a max of 5 users at once. If kettu responds with an image in a social command you can react with 👍 or 👎 within 90 seconds to add feedback to the image.
 
 Wish to opt out of certain or all social commands? Use the preference command, to suggest a new image use the suggest command. Likewise use the flag command to flag an image.
 

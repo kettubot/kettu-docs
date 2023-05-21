@@ -1,6 +1,6 @@
 # Change log
 
-Here you can find detailed logs of the changes and updates for Kettu. You can follow these logs in your own server if you join our [support server](https://discordapp.com/invite/4Bavumy). Want to take a step back in time and look at previous change logs? [Version 3](https://github.com/kettubot/kettu-docs/blob/48398938f4c5b39c8a21bfa79db9582dba9c11e7/Change%20Log.md) [Version 2](https://gideon-foxo.gitbook.io/kettu/change-log).
+Here you can find detailed logs of the changes and updates for Kettu. You can follow these logs in your own server if you join our [support server](https://discordapp.com/invite/4Bavumy). Want to take a step back in time and look at previous change logs? [Version 3](https://github.com/kettubot/kettu-docs/blob/v3/Change%20Log.md), [Version 2](https://gideon-foxo.gitbook.io/kettu/change-log).
 
 
 ## Version 4.0.1
@@ -85,11 +85,11 @@ Kettu moderation commands got improvements across the board. They should now act
 
 ### Misc Updates
 
-- Kettu now has warning logs, sends out a warning message about anything issues that are not a command, e.g. the bot cant send a mod log or join log message
+- Kettu now has warning logs, sends out a warning message about anything issues that are not a command, e.g. the bot can't send a mod log or join log message
 
 - All information commands have been overhauled with new features and facelifts
 
-- Join and leave logs have been updated to give more info and be more compact. Leave logs also now fire even if a user isnt cached
+- Join and leave logs have been updated to give more info and be more compact. Leave logs also now fire even if a user isn't cached
 
 - Added screened logs
 
