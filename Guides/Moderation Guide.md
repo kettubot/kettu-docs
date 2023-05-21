@@ -72,7 +72,7 @@ Kettu has a raidmode that can stop help handle raids, this can be operated manua
 
 Use the `raidmode` command to view Kettu's current raidmode status. Kettu has 4 different action options:
 
-- ban
+- ban$$
 - kick
 - pause server invites
 - nothing
@@ -83,9 +83,53 @@ Every user that Kettu kicks or bans will be automatically DMed about it. If the 
 
 ![raidmode DM](https://cdn.discordapp.com/attachments/833171605366243330/1109328193384624218/brave_1uoIDbwFYX.png)
 
-## Other moderation commands
+## Purge
 
-Hay eeehhh do your thing here thanks!
+Kettu has a purge command which allows you to purge up to 1000 messages at a time, with a number of filters for which messages to select. When you run purge, a menu will appear with information about your options and how many messages were found to verify that your filtering worked correctly. From this menu, you can choose to cancel the purge or continue.
+
+Due to the complexity of these filters, the syntax for the purge command is different to all other commands. This makes using purge with slash much easier instead of text, since Discord will show you the list of options when you start typing the command.
+
+Kettu will 'search' previous messages in the target channel for messages that match your filters (or all messages if you provided no filters). If you pass a `limit` option Kettu will try to search that many messages, otherwise it will be based on any other limits you provide (for example a duration or message link). The default value with no other limits is 100.
+
+Kettu will stop searching early if it reaches messages older than two weeks, due to Discord's restriction on bulk deleting messages. If this doesn't happen, and Kettu determines there are more messages that can be searched, a button will appear in the purge menu to try and search an extra 100 messages.
+
+**Limits - adjust which range of messages Kettu searches:**
+
+- `limit` adjusts the number of messages to search, between 2 and 1000. If no other limit options are set, this will default to 100.
+- `recent` tells Kettu how far back to search in the form of a duration. For example, this could be `2h30m`. In text mode, avoid using `2h 30m` as this won't work.
+- `since` tells Kettu how far back to search in the form of a timestamp, in unix milliseconds. In text mode, format this as a Discord timestamp like `<t:1627796314>`.
+- `since-message` tells Kettu how far back to search by passing a link to the oldest message that should be searched.
+
+The limits `recent`, `since` and `since-message` can all be used together, and only messages within all 3 ranges will be searched.
+
+**Filters - determine which searched messages should be purged:**
+
+- `bots` will only purge messages from bots.
+- `humans` will only purge messages from humans.
+- `system` will only purge system messages, such as Discord's native boost & join messages.
+- `embeds` will only purge messages with embeds.
+- `links` will only purge messages with links.
+- `images` or `attachments` will only purge messages with attachments.
+- `stickers` will only purge messages with stickers.
+- `includepins` will **allow** Kettu to purge pinned messages too. By default, pinned messages are skipped.
+- `#channel` instructs Kettu to search & purge messages in a different channel to the current one.
+- `@user mention` or a user ID will only purge messages from a certain user.
+- `content` will only purge messages that contain specific text. In text mode, indicate `content` by wrapping it in "quotes".
+- `regex` will only purge messages matching a regular expression. In text mode, indicate `regex` by wrapping it in \`backticks\`.
+
+Any combination of filters can be used, but some combinations will prevent any messages from passing filters. For example, using `bots` and `humans` together won't work since they are mutually exclusive. Similarly, a `@user mention` will override both of these filters.
+
+**Examples (as text commands):**
+
+Purge the last 250 messages: `k!purge 250`
+
+Purge all system messages in the #boosts channel: `k!purge system #boosts`
+
+Purge all messages from in the past hour and 30 minutes containing "raid": `k!purge 1h "raid"`
+
+Purge all messages from bots with embeds: `k!purge bots embeds`
+
+Running `k!purge` with no arguments will bring up a list of options if you need a quick reference. Or, just use slash :)
 
 ### Still need help? 
 
