@@ -1,6 +1,6 @@
 # Animal Commands
 
-From foxes to dogs, ferrets to otters, Kettu probably has an animal command for you! All animal commands are powered by [Chewey bot api](https://api.chewey-bot.top/), please contact them for issue with images.
+From foxes to dogs, ferrets to otters, Kettu probably has an animal command for you! All animal commands are powered by the [Chewey Bot API](https://api.chewey-bot.top/), please contact them for issues with images.
 
 All animal commands can also take a user argument, this sends the selected animal to the user in DMs. To opt out either hit the opt out button in DMs or use the `preference` command to individualize your preferences.
 

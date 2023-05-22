@@ -28,7 +28,7 @@ Aliases: `emoteid
 
 -------
 
-**k! or poll <poll>**
+**k! or / poll <poll>**
 
 Starts a simple yea, naw, shrug poll.
 

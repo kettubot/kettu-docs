@@ -1,29 +1,9 @@
 # kettu-docs
 
-This repository is used to edit & maintain Kettu's v3 Documentation, which is stored in markdown and rendered server-side [here](https://kettu.cc/docs). For more information on Kettu, head to the [main website](https://kettu.cc).
+This repository is used to edit & maintain Kettu's v4 Documentation, which can be accessed [here](https://kettu.cc/docs). For more information on Kettu, head to our [website](https://kettu.cc).
 
-## Overview
+All files and folders in this repository are located under `/docs` based on their paths. The only exceptions are `Home.md` which is displayed at `/docs` instead of `/docs/home`, and `404.md` which is used as a 404 page. Documentation in the `beta` branch appears on our [development site](https://dev.kettu.cc/docs).
 
-All files and folders in this repository (with the exception of a few, in the table below) are located on the `/docs` path on Kettu's main site. `.md` extensions for pages are removed, and attempting to directly visit a folder will result in a 404 error.
+Markdown is rendered using [Marked](https://github.com/markedjs/marked), and code is rendered using [Highlight.js](https://github.com/highlightjs/highlight.js).
 
-### Exempt Files
-
-These files are exempt from the typical docs processing, meaning they cannot be accessed in the usual method and are not displayed on the sidebar menu.
-
-file | usage
----- | -----
-HOME.md | Displayed at the root `/docs` location.
-404.md | 404 file, displayed for all unknown `/docs` requests.
-README.md | Intended only for display on GitHub.
-
-## Rendering
-
-Markdown is rendered using [Marked](https://github.com/markedjs/marked), and supports all typical markdown styles. The most common of these can be found in the `markdown stuff.md` file, which I'll make exempt before these docs become the main documentation. Since all markdown styles are custom, let me know if I forgot to style a feature.
-
-Code is rendered using [Highlight.js](https://github.com/highlightjs/highlight.js), in the 'Tomorrow Night Bright' theme.
-
-## Beta
-
-The `beta` branch works in exactly the same way to `master`, but can be found on the `/bdocs` path instead of `/docs`. It is designed for previewing work-in-progress documentation before it is deployed on the main docs page.
-
-Both `master` and `beta` automatically update on the website when pushed.
+Contributions are welcome!

@@ -12,7 +12,7 @@ It is also highly recommended you join our [support server](https://discordapp.c
 
 ## Other Information
 
-Baby Kettu operates independently from normal Kettu; this means you can use both in your server while allowing them to have independent settings from each other. 
+Baby Kettu operates (kind of) independently from normal Kettu; this means you can use both in your server while allowing them to have independent server settings from each other. Your user settings will be the same for both, and moderation cases will all be stored together.
 
 Have any other questions not listed here? Come ask us in our [support server](https://discordapp.com/invite/4Bavumy).
 

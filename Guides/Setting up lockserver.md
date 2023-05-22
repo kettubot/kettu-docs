@@ -1,6 +1,6 @@
 # Setting up lockserver
 
-Kettu's lock server command allows you to lock a server in a moments notice! To achieve this Kettu revokes `Send Messages`, `Send Messages in Threads`, `Create Public Threads`, `Create Private Threads`, and `connect` permissions from the `@everyone` or default role. 
+Kettu's lock server command allows you to lock a server in a moment's notice! To achieve this Kettu revokes `Send Messages`, `Send Messages in Threads`, `Create Public Threads`, `Create Private Threads`, and `connect` permissions from the `@everyone` or default role. 
 
 ## Lets break that down
 

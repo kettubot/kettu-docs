@@ -1,10 +1,10 @@
 # The Ultimate Kettu Moderation Guide
 
-Kettu has many powerful moderation commands to help keep your server safe from bad actors, in this guide we will break all of Kettu's moderation features in depth. If you havent already check out our [moderation command reference](https:// kettu.cc/docs/command-documentation/moderation-commands) to learn more about individual command syntaxes.
+Kettu has many powerful moderation commands to help keep your server safe from bad actors, in this guide we will break down all of Kettu's moderation features in depth. If you haven't already, check out our [moderation command reference](https://kettu.cc/docs/command-documentation/moderation-commands) to learn more about individual command syntaxes.
 
 ## User Moderation Commands
 
-Unlike most Kettu commands, the user moderation commands act slightly differently between slash and text commands. Slash commands can only support a max of 5 users while text can handle as many as you can fit in 2000 charters (or 4000 for those nitro users). Slash commands also have easy to use options where as text commands have flags, e.g. --nsfw, --silent, --bandelete=5 ect. 
+Unlike most Kettu commands, the user moderation commands act slightly differently between slash and text commands. Slash commands can only support a max of 5 users while text can handle as many as you can fit in 2000 characters (or 4000 for those nitro users). Slash commands also have easy to use options whereas text commands have flags, e.g. --nsfw, --silent, --bandelete=5 ect. 
 
 Flags are a way to add extra options into a command, the current flags you will see:
 
@@ -14,7 +14,7 @@ Flags are a way to add extra options into a command, the current flags you will 
 
 - --image=URLtoImage Lets you add an image from a link instead of uploading a screen shot, make sure to include the = !
 
-- --bandelete=number Lets you set the number of days to delete messages upon a ban. Must be between 0 to 7. By default it is 0, however you can change your servers default ban time
+- --bandelete=number Lets you set the number of days to delete messages upon a ban. Must be between 0 to 7. By default it is 0, however you can change your server's default ban time
 
 Listed below are Kettu's user mod commands with their general syntax
 
@@ -28,7 +28,7 @@ Listed below are Kettu's user mod commands with their general syntax
 
 - Strike [users] [strikes] [reason] [image] [nsfw] [silent] Gives a user a strike. By default it gives out 1 strike but you can give out more strikes by providing a number. Strikes can not be 0 or negative. 
 
-- Unban [users] [reason] [image] [nsfw] Unbans users. No DM is ever sent (because they cant be in the server).
+- Unban [users] [reason] [image] [nsfw] Unbans users. No DM is ever sent (because they can't be in the server).
 
 - Unmute [users] [reason] [image] [nsfw] [silent] Unmutes users.
 
@@ -56,13 +56,13 @@ In addition to the caseinfo command Kettu also has a check command to help find 
 
 ## Channel Moderation Commands
 
-- Slowmode [time] [channel] [reason] Lets you modify a channels slowlow in a moments notice! Must be between 0 and 21600 seconds.
+- Slowmode [time] [channel] [reason] Lets you modify a channels slowlow in a moment's notice! Must be between 0 and 21600 seconds.
 
 - Lockchannel [channel] [reason] [nsfw] [hide] Locks down a channel prevent users from speaking, [click here](https://kettu.cc/docs/guides/setting-up-lockchannel) to learn more about how to set this up. If the nsfw flag is added Kettu will mark the channel as nsfw until the channel is unlocked. The hide flag will hide the channel from users until the channel is unlocked.
 
 - Lockserver [reason] Locks down a server from speaking. [Click here](https://dev.kettu.cc/docs/guides/setting-up-lockserver) to learn more about how to set it up
 
-- Unlockchannel [channel] [reason] Unlocks a channel. This will automatically remove any flags that where applied when the channel got locked.
+- Unlockchannel [channel] [reason] Unlocks a channel. This will automatically remove any flags that were applied when the channel got locked.
 
 - Unlockserver [reason] Unlocks a server allowing users to speak again.
 
@@ -83,9 +83,53 @@ Every user that Kettu kicks or bans will be automatically DMed about it. If the 
 
 ![raidmode DM](https://cdn.discordapp.com/attachments/833171605366243330/1109328193384624218/brave_1uoIDbwFYX.png)
 
-## Other moderation commands
+## Purge
 
-Hay eeehhh do your thing here thanks!
+Kettu has a purge command which allows you to purge up to 1000 messages at a time, with a number of filters for which messages to select. When you run purge, a menu will appear with information about your options and how many messages were found to verify that your filtering worked correctly. From this menu, you can choose to cancel the purge or continue.
+
+Due to the complexity of these filters, the syntax for the purge command is different to all other commands. This makes using purge with slash much easier instead of text, since Discord will show you the list of options when you start typing the command.
+
+Kettu will 'search' previous messages in the target channel for messages that match your filters (or all messages if you provided no filters). If you pass a `limit` option Kettu will try to search that many messages, otherwise it will be based on any other limits you provide (for example a duration or message link). The default value with no other limits is 100.
+
+Kettu will stop searching early if it reaches messages older than two weeks, due to Discord's restriction on bulk deleting messages. If this doesn't happen, and Kettu determines there are more messages that can be searched, a button will appear in the purge menu to try and search an extra 100 messages.
+
+**Limits - adjust which range of messages Kettu searches:**
+
+- `limit` adjusts the number of messages to search, between 2 and 1000. If no other limit options are set, this will default to 100.
+- `recent` tells Kettu how far back to search in the form of a duration. For example, this could be `2h30m`. In text mode, avoid using `2h 30m` as this won't work.
+- `since` tells Kettu how far back to search in the form of a timestamp, in unix milliseconds. In text mode, format this as a Discord timestamp like `<t:1627796314>`.
+- `since-message` tells Kettu how far back to search by passing a link to the oldest message that should be searched.
+
+The limits `recent`, `since` and `since-message` can all be used together, and only messages within all 3 ranges will be searched.
+
+**Filters - determine which searched messages should be purged:**
+
+- `bots` will only purge messages from bots.
+- `humans` will only purge messages from humans.
+- `system` will only purge system messages, such as Discord's native boost & join messages.
+- `embeds` will only purge messages with embeds.
+- `links` will only purge messages with links.
+- `images` or `attachments` will only purge messages with attachments.
+- `stickers` will only purge messages with stickers.
+- `includepins` will **allow** Kettu to purge pinned messages too. By default, pinned messages are skipped.
+- `#channel` instructs Kettu to search & purge messages in a different channel to the current one.
+- `@user mention` or a user ID will only purge messages from a certain user.
+- `content` will only purge messages that contain specific text. In text mode, indicate `content` by wrapping it in "quotes".
+- `regex` will only purge messages matching a regular expression. In text mode, indicate `regex` by wrapping it in \`backticks\`.
+
+Any combination of filters can be used, but some combinations will prevent any messages from passing filters. For example, using `bots` and `humans` together won't work since they are mutually exclusive. Similarly, a `@user mention` will override both of these filters.
+
+**Examples (as text commands):**
+
+Purge the last 250 messages: `k!purge 250`
+
+Purge all system messages in the #boosts channel: `k!purge system #boosts`
+
+Purge all messages from in the past hour and 30 minutes containing "raid": `k!purge 1h "raid"`
+
+Purge all messages from bots with embeds: `k!purge bots embeds`
+
+Running `k!purge` with no arguments will bring up a list of options if you need a quick reference. Or, just use slash :)
 
 ### Still need help? 
 
