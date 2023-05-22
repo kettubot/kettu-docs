@@ -4,8 +4,6 @@ Here you can find detailed logs of the changes and updates for Kettu. You can fo
 
 ## Version 4.0.2
 
-Fixed slash commands from not populating
-
 Fixed bug where the editcase command would delete a case instead of editing it. Please let us know if this happened to you we can revert it
 
 Removed a potentially suggestive snuggle response
