@@ -2,6 +2,17 @@
 
 Here you can find detailed logs of the changes and updates for Kettu. You can follow these logs in your own server if you join our [support server](https://discordapp.com/invite/4Bavumy). Want to take a step back in time and look at previous change logs? [Version 3](https://github.com/kettubot/kettu-docs/blob/v3/Change%20Log.md), [Version 2](https://gideon-foxo.gitbook.io/kettu/change-log).
 
+## Version 4.0.2
+
+Fixed bug where the editcase command would delete a case instead of editing it. Please let us know if this happened to you we can revert it
+
+Removed a potentially suggestive snuggle response
+
+Fixed bug with social commands with images casing them to send an error 90 seconds after a social command was ran because of lacking perms
+
+Improved internal error logging
+
+Improved image feedback logging
 
 ## Version 4.0.1
 
