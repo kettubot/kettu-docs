@@ -2,6 +2,14 @@
 
 Here you can find detailed logs of the changes and updates for Kettu. You can follow these logs in your own server if you join our [support server](https://discordapp.com/invite/4Bavumy). Want to take a step back in time and look at previous change logs? [Version 3](https://github.com/kettubot/kettu-docs/blob/v3/Change%20Log.md), [Version 2](https://gideon-foxo.gitbook.io/kettu/change-log).
 
+## Version 4.0.4
+
+Fixed bug causing the autofeed command to not work if it was not on the shard this server is on
+
+Fixed the id command from breaking if used with slash commands
+
+Fixed the suggest command from breaking without a response caused by the same sharding issue
+
 ## Version 4.0.3
 
 Added account creation date 
