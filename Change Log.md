@@ -2,6 +2,24 @@
 
 Here you can find detailed logs of the changes and updates for Kettu. You can follow these logs in your own server if you join our [support server](https://discordapp.com/invite/4Bavumy). Want to take a step back in time and look at previous change logs? [Version 3](https://github.com/kettubot/kettu-docs/blob/v3/Change%20Log.md), [Version 2](https://gideon-foxo.gitbook.io/kettu/change-log).
 
+## Version 4.0.5
+
+Slash commands now obey disabled categories 
+
+Fixed several bugs with autofeed where it would break if it lacked correct perms
+
+Fixed/improved some internal handling of slash commands to prevent some slash commands (mainly animal commands) from erroring or failing to finish fully
+
+Fixed a bug with editcase where it would just tack on the reason in the mog log instead of correctly replacing it 
+
+Fixed several bugs in the args handler where unexpected args would cause it break instead of return a wrong args error
+
+Fixed a bug with the source command where it would error if it lacked perms to delete the message reactions
+
+Fixed bug where a deleted logging channel would cause the bot to error out instead of post a warn log for member join events
+
+Fixed some typos
+
 ## Version 4.0.4
 
 Fixed bug causing the autofeed command to not work if it was not on the shard this server is on
