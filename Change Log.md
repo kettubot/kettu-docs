@@ -2,6 +2,38 @@
 
 Here you can find detailed logs of the changes and updates for Kettu. You can follow these logs in your own server if you join our [support server](https://discordapp.com/invite/4Bavumy). Want to take a step back in time and look at previous change logs? [Version 3](https://github.com/kettubot/kettu-docs/blob/v3/Change%20Log.md), [Version 2](https://gideon-foxo.gitbook.io/kettu/change-log).
 
+## Version 4.0.6
+
+Added the Hidden Slash command Moderator Responses setting to toggle if slash moderation commands are sent as normal messages or with hidden ephemeral messages
+
+Fixed issues causing the dashboard to fail to load for users with correct permissions
+
+Dashboard/website errors are more clear and verbose
+
+Fixed an exploit allowing users to test nitro boost messages without needing the correct permissions
+
+Added logic to disable text commands if set to disabled. This was set to off by default but that was not intended behavior, text commands are now enabled by default everywhere
+
+Fixed an internal bug causing slash command context not to be added to cases. If you search a case that was created with slash commands it will say "manual action", if you have mod logs enabled the mod logs will correctly point to the channel as the context
+
+Poll and vote now delete the input message if the command is a text command and the bot has permissions to delete it and resend it as an embed. These commands now both display the user display name and avatar
+
+Made the remind, and profile commands server only as they where not intended to work int DMs
+
+Fixed some bugs we caused in user moderation commands, poll, vote, contributors and the settings command causing them to break and error out
+
+Fixed the status command so it can now work in DMs
+
+Fixed a bug a causing the preferences command to break if the user did not have a display avatar 
+
+Fixed bug where the help command would throw an error if you closed the menu and the original command got deleted
+
+Fixed an error with the return purge message
+
+Added a proxy to monitor Kettu's requests to Discord
+
+Some internal logging improvements
+
 ## Version 4.0.5
 
 Slash commands now obey disabled categories 
