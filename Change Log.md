@@ -2,6 +2,28 @@
 
 Here you can find detailed logs of the changes and updates for Kettu. You can follow these logs in your own server if you join our [support server](https://discordapp.com/invite/4Bavumy). Want to take a step back in time and look at previous change logs? [Version 3](https://github.com/kettubot/kettu-docs/blob/v3/Change%20Log.md), [Version 2](https://gideon-foxo.gitbook.io/kettu/change-log).
 
+## Version 4.0.7
+
+Automatic unmutes and unbans now log in the moderation logs
+
+Fixed a bug causing mog log context link to the channel instead of the message for text commands. This data was still stored correctly in the case itself, simply use the case command to find the correct context
+
+Fixed a bug causing the dashboard to not update settings immediately. This caused issues with setting up nitro boost logging for the first time
+
+Fixed a bug causing mod commands to error out if the server disabled DMs on moderation actions
+
+Fixed a bug causing Kettu to endlessly typing if the command errored out instead of finishing as intended
+
+Fixed a bug with the args handler causing it to error out if a user not in the sever was provided for a member argument 
+
+Fixed a bug causing the args handler to break for custom emote args
+
+Fixed a bug causing Kettu to error out if you deleted the member select menu 
+
+Updated the way Kettu internally handles versions 
+
+Fixed typos in the unmute command saying it muted instead of unmuted
+
 ## Version 4.0.6
 
 Added the Hidden Slash command Moderator Responses setting to toggle if slash moderation commands are sent as normal messages or with hidden ephemeral messages
