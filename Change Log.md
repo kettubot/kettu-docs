@@ -2,6 +2,16 @@
 
 Here you can find detailed logs of the changes and updates for Kettu. You can follow these logs in your own server if you join our [support server](https://discordapp.com/invite/4Bavumy). Want to take a step back in time and look at previous change logs? [Version 3](https://github.com/kettubot/kettu-docs/blob/v3/Change%20Log.md), [Version 2](https://gideon-foxo.gitbook.io/kettu/change-log).
 
+## Version 4.0.8
+
+Updated an internal library enabling Kettu to see user display names
+
+Updated the social, moderation, and information commands as well as events, and internal handlers to support user display names
+
+Fixed a bug causing the preference command to break if you where trying to enable or disable social or animal
+
+Fixed a bug causing auto unmutes and bans to not log correctly if they where ran with slash commands
+
 ## Version 4.0.7
 
 Automatic unmutes and unbans now log in the moderation logs
