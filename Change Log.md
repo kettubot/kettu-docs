@@ -2,6 +2,18 @@
 
 Here you can find detailed logs of the changes and updates for Kettu. You can follow these logs in your own server if you join our [support server](https://discordapp.com/invite/4Bavumy). Want to take a step back in time and look at previous change logs? [Version 3](https://github.com/kettubot/kettu-docs/blob/v3/Change%20Log.md), [Version 2](https://gideon-foxo.gitbook.io/kettu/change-log).
 
+## Version 4.0.9
+
+Fixed a bug causing anyone to update a case reason by hitting the update case button on a moderation command repones, thanks to Riku for catching this
+
+Fixed a bug causing the member select menu to break if the text command got deleted 
+
+Fixed a bug causing the poll, vote, purge, and source command to error out if it lacked view message history or view channel perms
+
+Fixed a bug with the lock channel command causing it to break if you used the nsfw flag options 
+
+Fixed a bug in the purge command causing it to display "couldn't delete 0."
+
 ## Version 4.0.8
 
 Updated an internal library enabling Kettu to see user display names
