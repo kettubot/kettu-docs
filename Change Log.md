@@ -2,6 +2,20 @@
 
 Here you can find detailed logs of the changes and updates for Kettu. You can follow these logs in your own server if you join our [support server](https://discordapp.com/invite/4Bavumy). Want to take a step back in time and look at previous change logs? [Version 3](https://github.com/kettubot/kettu-docs/blob/v3/Change%20Log.md), [Version 2](https://gideon-foxo.gitbook.io/kettu/change-log).
 
+## Version 4.0.10
+
+Kettu now uses custom status instead of Playing or Watching status and some new status it rotates to
+
+The moderation logs and check command now show a users display avatar, this now will show default Discord avatars instead of nothing
+
+Fixed bug causing the social commands to incorrectly make words plural when it was singular 
+
+Fixed a bug in the mute and unmute commands causing it to display null instead of the moderators tag
+
+Fixed incorrect permissions for the autofeed command allowing any user to setup an autofeed
+
+Fixed bug with the profile command causing it to display the line "moderator permissions" even if the user had none
+
 ## Version 4.0.9
 
 Fixed a bug causing anyone to update a case reason by hitting the update case button on a moderation command repones, thanks to Riku for catching this
