@@ -2,6 +2,40 @@
 
 Here you can find detailed logs of the changes and updates for Kettu. You can follow these logs in your own server if you join our [support server](https://discordapp.com/invite/4Bavumy). Want to take a step back in time and look at previous change logs? [Version 3](https://github.com/kettubot/kettu-docs/blob/v3/Change%20Log.md), [Version 2](https://gideon-foxo.gitbook.io/kettu/change-log).
 
+## Version 4.1.0
+
+🔧 Rebuilt all of the social commands to be more streamlined and easier to update and maintain in the future
+
+➕ Added feedback and source buttons to social commands with images that do not timeout 
+
+➕ Social commands now have a button to view an opted out users preferences with a ephemeral "blue Clyde" message that do not time out
+
+➕ Preference command now has select menus for updating user preferences instead of having to run the command again. This is kept for text commands as a legacy feature
+
+➕ Source command now uses buttons and select menu to give image feedback and flag it. Members with the ManageGuild permissions also have a disable and enable image button
+
+➕ Added a strict mode, this is a smaller pool of extra safe images 
+
+➕ Added hedgehog and penguin animal commands. These can also be setup with an hourly autofeed
+
+➕ Added the settings hide feedback buttons, strict mode, and disable images
+
+➖ Removed the flag command as its now redundant
+
+➖  Removed the ability to add feedback with thumbs up and down emotes as its now redundant
+
+🔧 Updated some of the social images and responses. Images have also been resorted to fill in some gaps, we do not plan to do this again
+
+🛠️ Overhauled how errors are handled allowing for better readability and better context
+
+🛠️ Combined the slash and text command handlers to streamline code and improve compatibility
+
+🛠️  Kettu now no longer defers all slash commands, just in cases where a long reply is expected
+
+🛠️ Added new image logs
+
+🐛 Fixed a few small bugs including one causing random shard crashing improved stability
+
 ## Version 4.0.10
 
 Kettu now uses custom status instead of Playing or Watching status and some new status it rotates to
