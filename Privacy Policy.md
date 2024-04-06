@@ -73,7 +73,6 @@ User data includes:
 User data also includes, when provided directly by you:
   - Kettu profile information (badges, votes, bio, color, pronouns, timezone)
   - Kettu settings (social & animal command preferences, vote reminders, leveling, etc)
-  - 
 
 User data also includes, when automatically collected by us:
   - Temporary storage of your Discord user information when you use our website
