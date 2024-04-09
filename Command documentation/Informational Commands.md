@@ -45,7 +45,7 @@ Aliases: `inviteme`, `addme`, `inv`
 
 -------
 
-**k! or / roleinfo &lt;@Role/role name/ID>**
+**k! or / roleinfo test {'<'}@Role/role name/ID>**
 
 Shows useful information about a given role.
 
