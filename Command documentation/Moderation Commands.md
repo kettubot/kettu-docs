@@ -66,7 +66,7 @@ Permission Level: `BanMembers`
 
 Kicks a bad fluffball. User needs to be in the server to be kicked.
 
-Aliases: `k``
+Aliases: `k`
 
 Permission Level: `BanMembers`
 
@@ -87,7 +87,7 @@ Permission Level: `BanMembers`
 
 Locks the server so normal users can not speak in it. [Click here](https://dev.kettu.cc/docs/guides/setting-up-lockserver) to read our guide on how to set this up.
 
-Aliases: ` ls`, `lockdown`
+Aliases: `ls`, `lockdown`
 
 Permission Level: `ManageGuild`
 
@@ -139,7 +139,7 @@ Permission Level: `ManageMessages`
 
 Softban bans then unbans deleting a fluffball's messages sent in the last 24 hours.
 
-Aliases: ``sb`, `deletekick`
+Aliases: `sb`, `deletekick`
 
 Permission Level: `BanMembers`
 
@@ -183,7 +183,7 @@ Unlocks the server so normal users can speak in it again.
 
 Aliases: `us`, `unlockdown`
 
-Permission Level: `ManageGuild `
+Permission Level: `ManageGuild`
 
 -------
 
@@ -194,7 +194,7 @@ Unmutes a fluffball.
 
 Aliases: `um`, `untimeout`
 
-Permission Level: `ModerateMembers `
+Permission Level: `ModerateMembers`
 
 -------
 
@@ -205,6 +205,6 @@ Removes strikes from a user. Use the check command to view a users current amoun
 
 Aliases: `pardon`, `removewarn`
 
-Permission Level: `BanMembers `
+Permission Level: `BanMembers`
 
 -------

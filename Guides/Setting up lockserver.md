@@ -8,7 +8,7 @@ As mentioned above, when you run the command Kettu removes the `Send Messages`, 
 
 For this to work ideally these permissions should only exist on the `@everyone` or default role. Extra roles such as, pronouns, colors, status, ect should not have any permissions attached to them unless the role exists to give the user extra permissions. If this is how your permissions are set up don't fret! Under the `Permissions` tab there is a clear permissions but that magically remove's all permissions from the role.
 
-![Remove permissions button](https://cdn.discordapp.com/attachments/1089370527518433282/1097234190937886720/Discord_DiDsYl69rq.png)
+![Remove permissions button](https://cdn.kettu.cc/external-assets/kettu-docs-guides-lockserver-1.png)
 
 Not only do you have to make sure your role permissions are set correctly, your channel permissions are also important too! If you have any channel overrides enabling (that means set to ✅) any of the permissions Kettu revokes then the effect will be lost in that channel. For example if a channel has the `Send Message` permissions override enabled users will still be able to send messages there. Or if a channel has `Connect` override enabled users will still be able to connect to it.
 
@@ -22,15 +22,15 @@ Testing the lock channel command in your server might be impractical if it is ac
 
 To do this go to server settings -> Server Template -> Generate Template. After you give it a title and create it hit copy and either paste it into a web browser or into a Discord channel. From there hit create server and presto! You now have a duplicate server with identical permissions.
 
-![Server template menu](https://cdn.discordapp.com/attachments/1089370527518433282/1097244019957964950/Discord_lW1j2bOjBa.png)
+![Server template menu](https://cdn.kettu.cc/external-assets/kettu-docs-guides-lockserver-2.png)
 
 From there either [invite Kettu](https://kettu.cc/invite?ref=docs) or simply revoke the permissions from the `@everyone` role. Then right click on the `@everyone` role and hit View Server As Role.
 
-![View Server As Role](https://cdn.discordapp.com/attachments/1089370527518433282/1097244608116838432/Discord_Ky72KnVxj5.png)
+![View Server As Role](https://cdn.kettu.cc/external-assets/kettu-docs-guides-lockserver-3.png)
 
 From this view you can also add or remove other roles users might have to check they function as expected.
 
-![Select Roles Option](https://cdn.discordapp.com/attachments/1089370527518433282/1097247251627249774/Discord_r60oMNv0Ae.png)
+![Select Roles Option](https://cdn.kettu.cc/external-assets/kettu-docs-guides-lockserver-4.png)
 
 Once finished make sure to apply any changes you made to your sandbox server on your real server! If you forgot what permissions you modified don't fret, simply go into server settings -> audit log. From here you will be able to view any changes you made. Then you are safe to delete the sandbox server and delete the server template.
 

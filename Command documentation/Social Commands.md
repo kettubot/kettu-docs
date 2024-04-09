@@ -13,7 +13,7 @@ To disable Kettu from posting social images in specific channels put `{noembed}`
 
 Baps a bad fluffball 🗞️
 
-Aliases: `baps, bonk, bonks`
+Aliases: `baps`, `bonk`, `bonks`
 
 -------
 
@@ -41,13 +41,6 @@ Aliases: `boops`
 Gives another fluffball a cookie 🍪
 
 Aliases: `givecookie`, `cookies`
-
--------
-
-**k! or / flag \<category> \<ID>**
-
-Flags an image
-Aliases: `flagimage`, `badimage`
 
 -------
 
@@ -114,7 +107,6 @@ Aliases: `pounces`, `attack`, `attacks`
 
 -------
 
-
 **k!snuggle \<@user/username/id/everyone> [users...]**
 **/snuggle \<user> [users...]**
 
@@ -124,7 +116,6 @@ Aliases: `snugs`, `snuggles`, `snug`, `cuddle`, `cuddles`
 
 -------
 
-
 **k! or / source \<category> \<ID>**
 
 Fetches an image data
@@ -132,7 +123,6 @@ Fetches an image data
 Aliases: `getimage`, `getphoto`
 
 -------
-
 
 **k!zap  \<@user/username/id/everyone> [users...]**
 **/zap  \<user> [users...]**

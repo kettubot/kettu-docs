@@ -8,7 +8,7 @@ Providing useful information about Kettu, roles, servers and more!
 
 Give you more information about Kettu c:
 
-Aliases: `info, `aboutme`
+Aliases: `info`, `aboutme`
 
 -------
 

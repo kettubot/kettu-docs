@@ -38,7 +38,7 @@ If more then one user is provided Kettu will replace the DM status with an emote
 
 By default Kettu will send the user a DM if they are in the server when the action took place. Kettu can also be configured to show the moderator information in the DM as well as send an appeals link, or outright disabled. An example of a user DM with a time, appeals link and moderator tag showing can be found below.
 
-![Example user DM](https://cdn.discordapp.com/attachments/833171605366243330/1109330441367994449/brave_zcphtw05eK.png)
+![Example user DM](https://cdn.kettu.cc/external-assets/kettu-docs-guides-moderation-1.png)
 
 ## Kettu Cases
 
@@ -81,7 +81,7 @@ Raidmode can also be automatically triggered if Kettu is setup to watch for raid
 
 Every user that Kettu kicks or bans will be automatically DMed about it. If the action is ban and the server has an appeals link setup that will be sent to the user. An example of a raidmode DM can be found below. 
 
-![raidmode DM](https://cdn.discordapp.com/attachments/833171605366243330/1109328193384624218/brave_1uoIDbwFYX.png)
+![raidmode DM](https://cdn.kettu.cc/external-assets/kettu-docs-guides-moderation-2.png)
 
 ## Purge
 

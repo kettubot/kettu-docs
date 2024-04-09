@@ -24,7 +24,7 @@ Aliases: `animaleveryhour`, `af`, `aeh`, `animalfeed`, `feed`, `afeed`
 
 Neatly lists out an emote with its name and ID, useful for emote servers for making lists of emotes. If Kettu has perms it will auto delete the input message.
 
-Aliases: `emoteid
+Aliases: `emoteid`
 
 -------
 
@@ -56,6 +56,6 @@ Aliases: `iam`, `sr`, `iamnot`
 
 Lets you suggest new images for Kettu! c: Run the command with no args to get a guide on what/how to suggest images.
 
-Aliases: ` botsuggest`, `imagesuggest`
+Aliases: `botsuggest`, `imagesuggest`
 
 -------

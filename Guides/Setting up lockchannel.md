@@ -22,11 +22,11 @@ To make sure Kettu lockchannel is effective make sure no normal user has any of 
 
 To test lock channel simple lock a channel down and then go to server settings -> roles right click on the `@everyone` role and hit View Server As Role.
 
-![View Server As Role](https://cdn.discordapp.com/attachments/1089370527518433282/1097244608116838432/Discord_Ky72KnVxj5.png)
+![View Server As Role](https://cdn.kettu.cc/external-assets/kettu-docs-guides-lockchannel-1.png)
 
 From this view you can also add or remove other roles users might have to check they function as expected.
 
-![Select Roles Option](https://cdn.discordapp.com/attachments/1089370527518433282/1097247251627249774/Discord_r60oMNv0Ae.png)
+![Select Roles Option](https://cdn.kettu.cc/external-assets/kettu-docs-guides-lockchannel-2.png)
 
 ## Other things to note
 

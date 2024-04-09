@@ -16,8 +16,6 @@ By using any of the services, you agree to abide by the terms described in our [
 
 The following list describes all data that Kettu stores and collects through your use of the services, which may be related to you as a user or directly provided by you.
 
-
-
 ### Guild Cases (previously known as Punishments)
 
 Guild case data is essential when using Kettu's moderation commands and features.
