@@ -10,8 +10,8 @@ User mod commands support 5 users on slash commands and no limit with text comma
 
 ## Command Reference
 
-**k!ban <@user/id> [users...] [time/#w#d#m] [reason] [--link=linkURL/image] [--bandelete=#] [--nsfw] [--silent]**
-**/ban <user> [users...] [reason] [image] [ban_delete] [minutes] [hours] [days] [silent] [nsfw]**
+**k!ban \<@user/id> [users...] [time/#w#d#m] [reason] [--link=linkURL/image] [--bandelete=#] [--nsfw] [--silent]**
+**/ban \<user> [users...] [reason] [image] [ban_delete] [minutes] [hours] [days] [silent] [nsfw]**
 
 Bans a bad fluffball. User does not need to be in the server to be banned
 
@@ -31,7 +31,7 @@ Permission Level: `BanMembers`
 
 -------
 
-**k! or / check <@user/id>**
+**k! or / check \<@user/id>**
 
 Gives you useful information about a user and their moderation status/history
 
@@ -41,7 +41,7 @@ Permission Level: `BanMembers`
 
 -------
 
-**k! or / deletecase <case-id>**
+**k! or / deletecase \<case-id>**
 
 Deletes a case
 
@@ -51,7 +51,7 @@ Permission Level: `BanMembers`
 
 -------
 
-**k! or / editcase <case-id> <new-reason>**
+**k! or / editcase \<case-id> \<new-reason>**
 
 Updates the reason for a case
 
@@ -61,8 +61,8 @@ Permission Level: `BanMembers`
 
 -------
 
-**k!kick <@user/id> [users...] [time/#w#d#m] [reason] [--link=linkURL/image] [--nsfw] [--silent]**
-**/kick <user> [users...] [reason] [image] [silent] [nsfw]**
+**k!kick \<@user/id> [users...] [time/#w#d#m] [reason] [--link=linkURL/image] [--nsfw] [--silent]**
+**/kick \<user> [users...] [reason] [image] [silent] [nsfw]**
 
 Kicks a bad fluffball. User needs to be in the server to be kicked.
 
@@ -93,8 +93,8 @@ Permission Level: `ManageGuild`
 
 -------
 
-**k!mute <@user/id> [users...] [time/#w#d#m] [reason] [--link=linkURL/image] [--nsfw] [--silent]**
-**/mute <user> [users...] [reason] [image] [minutes] [hours] [days] [silent] [nsfw]**
+**k!mute \<@user/id> [users...] [time/#w#d#m] [reason] [--link=linkURL/image] [--nsfw] [--silent]**
+**/mute \<user> [users...] [reason] [image] [minutes] [hours] [days] [silent] [nsfw]**
 
 Mutes a bad fluffball. User needs to be in the server to be muted
 
@@ -104,7 +104,7 @@ Permission Level: `ModerateMembers`
 
 -------
 
-**k! or / purge <2-1000> [help/args...]**
+**k! or / purge \<2-1000> [help/args...]**
 
 Purges messages. Run purge help to learn about the commands args.
 
@@ -124,7 +124,7 @@ Permission Level: `BanMembers`
 
 -------
 
-**k! or / slowmode <time> [channel] [reason]**
+**k! or / slowmode \<time> [channel] [reason]**
 
 Sets slowmode on a channel. Useful for making the chat chill out.
 
@@ -134,8 +134,8 @@ Permission Level: `ManageMessages`
 
 -------
 
-**k!softban <@user/id> [users...] [reason] [--link=linkURL/image] [--nsfw] [--silent]**
-**/ban <user> [users...] [reason] [image] [silent] [nsfw]**
+**k!softban \<@user/id> [users...] [reason] [--link=linkURL/image] [--nsfw] [--silent]**
+**/ban \<user> [users...] [reason] [image] [silent] [nsfw]**
 
 Softban bans then unbans deleting a fluffball's messages sent in the last 24 hours.
 
@@ -145,8 +145,8 @@ Permission Level: `BanMembers`
 
 -------
 
-**k!strike <@user/id> [users...] [strikes] [reason] [--link=linkURL/image] [--nsfw] [--silent]**
-**/strike <user> [users...] [strikes] [reason] [image] [silent] [nsfw]**
+**k!strike \<@user/id> [users...] [strikes] [reason] [--link=linkURL/image] [--nsfw] [--silent]**
+**/strike \<user> [users...] [strikes] [reason] [image] [silent] [nsfw]**
 
 Strikes a bad fluffball. Check a users strikes with the caseHistory command
 
@@ -156,8 +156,8 @@ Permission Level: `BanMembers`
 
 -------
 
-**k!unban <@user/id> [users...] [reason] [--link=linkURL/image] [--nsfw]**
-**/unban <user> [users...] [reason] [image] [nsfw]**
+**k!unban \<@user/id> [users...] [reason] [--link=linkURL/image] [--nsfw]**
+**/unban \<user> [users...] [reason] [image] [nsfw]**
 
 Unbans a fluffball.
 
@@ -187,8 +187,8 @@ Permission Level: `ManageGuild `
 
 -------
 
-**k!unmute <@user/id> [users...] [reason] [--link=linkURL/image] [--nsfw]**
-**/unmute <user> [users...] [reason] [image] [nsfw]**
+**k!unmute \<@user/id> [users...] [reason] [--link=linkURL/image] [--nsfw]**
+**/unmute \<user> [users...] [reason] [image] [nsfw]**
 
 Unmutes a fluffball.
 
@@ -198,8 +198,8 @@ Permission Level: `ModerateMembers `
 
 -------
 
-**k!unstrike  <@user/id> [users...] [strikes] [reason] [--link=linkURL/image] [--nsfw]**
-**/unstrike  <user> [users...] [strikes] [reason] [image] [nsfw]**
+**k!unstrike  \<@user/id> [users...] [strikes] [reason] [--link=linkURL/image] [--nsfw]**
+**/unstrike  \<user> [users...] [strikes] [reason] [image] [nsfw]**
 
 Removes strikes from a user. Use the check command to view a users current amount of strikes.
 

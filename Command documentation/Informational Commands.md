@@ -49,7 +49,7 @@ Aliases: `inviteme`, `addme`, `inv`
 
 Shows useful information about a given role.
 
-Aliases: `aboutrole, `ri`
+Aliases: `aboutrole`, `ri`
 
 -------
 

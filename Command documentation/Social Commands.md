@@ -8,8 +8,8 @@ To disable Kettu from posting social images in specific channels put `{noembed}`
 
 ## Command Reference
 
-**k!bap <@user/username/id/everyone> [users...]**
-**/bap <user> [users...]**
+**k!bap \<@user/username/id/everyone> [users...]**
+**/bap \<user> [users...]**
 
 Baps a bad fluffball 🗞️
 
@@ -17,8 +17,8 @@ Aliases: `baps, bonk, bonks`
 
 -------
 
-**k!bellyrub <@user/username/id/everyone> [users...]**
-**/bellyrub <user> [users...]**
+**k!bellyrub \<@user/username/id/everyone> [users...]**
+**/bellyrub \<user> [users...]**
 
 Gives a fluffball belly rubs
 
@@ -26,8 +26,8 @@ Aliases: `bellyrubs`, `rubsbelly`
 
 -------
 
-**k!boop <@user/username/id/everyone> [users...]**
-**/boop <user> [users...]**
+**k!boop \<@user/username/id/everyone> [users...]**
+**/boop \<user> [users...]**
 
 Boops another fluffball.
 
@@ -35,8 +35,8 @@ Aliases: `boops`
 
 -------
 
-**k!cookie <@user/username/id/everyone> [users...]**
-**/cookie <user> [users...]**
+**k!cookie \<@user/username/id/everyone> [users...]**
+**/cookie \<user> [users...]**
 
 Gives another fluffball a cookie 🍪
 
@@ -44,15 +44,15 @@ Aliases: `givecookie`, `cookies`
 
 -------
 
-**k! or / flag <category> <ID>**
+**k! or / flag \<category> \<ID>**
 
 Flags an image
 Aliases: `flagimage`, `badimage`
 
 -------
 
-**k!hug <@user/username/id/everyone> [users...]**
-**/hug <user> [users...]**
+**k!hug \<@user/username/id/everyone> [users...]**
+**/hug \<user> [users...]**
 
 Hugs a warm fluffball
 
@@ -60,8 +60,8 @@ Aliases: `hugs`, `huggo`
 
 -------
 
-**k!kiss <@user/username/id/everyone> [users...]**
-**/kiss <user> [users...]**
+**k!kiss \<@user/username/id/everyone> [users...]**
+**/kiss \<user> [users...]**
 
 Kisses a fluffball
 
@@ -69,8 +69,8 @@ Aliases: `kisses`, `smooch`, `smooches`
 
 -------
 
-**k!lick <@user/username/id/everyone> [users...]**
-**/lick <user> [users...]**
+**k!lick \<@user/username/id/everyone> [users...]**
+**/lick \<user> [users...]**
 
 Licks a fluffball
 
@@ -78,8 +78,8 @@ Aliases: `licks`
 
 -------
 
-**k!nom <@user/username/id/everyone> [users...]**
-**/nom <user> [users...]**
+**k!nom \<@user/username/id/everyone> [users...]**
+**/nom \<user> [users...]**
 
 noms a fluffball
 
@@ -87,8 +87,8 @@ Aliases: `noms`
 
 -------
 
-**k!nuzzle <@user/username/id/everyone> [users...]**
-**/nuzzle <user> [users...]**
+**k!nuzzle \<@user/username/id/everyone> [users...]**
+**/nuzzle \<user> [users...]**
 
 Nuzzles a fluffball
 
@@ -96,8 +96,8 @@ Aliases: `nuzzles`
 
 -------
 
-**k!pat <@user/username/id/everyone> [users...]**
-**/pat <user> [users...]**
+**k!pat \<@user/username/id/everyone> [users...]**
+**/pat \<user> [users...]**
 
 Pets a fluffball
 
@@ -105,8 +105,8 @@ Aliases: `pats`, `pet`, `pets`
 
 -------
 
-**k!pounce <@user/username/id/everyone> [users...]**
-**/pounce <user> [users...]**
+**k!pounce \<@user/username/id/everyone> [users...]**
+**/pounce \<user> [users...]**
 
 Pounce's on an unsuspecting fluffball...
 
@@ -115,8 +115,8 @@ Aliases: `pounces`, `attack`, `attacks`
 -------
 
 
-**k!snuggle <@user/username/id/everyone> [users...]**
-**/snuggle <user> [users...]**
+**k!snuggle \<@user/username/id/everyone> [users...]**
+**/snuggle \<user> [users...]**
 
 Snuggles a fluffball
 
@@ -125,7 +125,7 @@ Aliases: `snugs`, `snuggles`, `snug`, `cuddle`, `cuddles`
 -------
 
 
-**k! or / source <category> <ID>**
+**k! or / source \<category> \<ID>**
 
 Fetches an image data
 
@@ -134,8 +134,8 @@ Aliases: `getimage`, `getphoto`
 -------
 
 
-**k!zap  <@user/username/id/everyone> [users...]**
-**/zap  <user> [users...]**
+**k!zap  \<@user/username/id/everyone> [users...]**
+**/zap  \<user> [users...]**
 
 Zaps a fluffball
 

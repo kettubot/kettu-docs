@@ -28,7 +28,7 @@ Aliases: `setting`
 
 -------
 
-**k! or / setselfrole <@Role>/Role name/Role ID>**
+**k! or / setselfrole \<@Role>/Role name/Role ID>**
 
 Sets or removes a role from the self assignable list. If no role is provided it will list the current self assignable list. This is a legacy feature, expect this to be replaced sometime in the future.
 
