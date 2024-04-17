@@ -2,6 +2,8 @@
 
 Kettu has a leveling system that allows users to level and rank up just by chatting! This can encourage users to chat, give rewards to users and could even be used to help with moderation! Unlike most other bots, Kettu allows the user to set if, when, and how they want to be notified of level and rankups. 
 
+![Level command output example](https://cdn.kettu.cc/external-assets/Discord_KjUEbbFqLk.png)
+
 ## What commands are there?
 
 Kettu's leveling system has 4 commands, 2 for users and 2 for server admins.
