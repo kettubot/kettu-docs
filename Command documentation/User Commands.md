@@ -18,7 +18,7 @@ Aliases: `level`
 
 -------
 
-**k! or / leaderboard **
+**k! or / leaderboard**
 
 Show's the server leveling leaderboard
 

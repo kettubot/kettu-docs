@@ -4,7 +4,7 @@ Most of Kettu's settings can be configured with the settings command or Kettu's 
 
 ## Command Reference
 
-**k! or setlevel /<member> /<level> [method]**
+**k! or setlevel \<member> \<level> [method]**
 
 Sets the level of a user
 
@@ -14,7 +14,7 @@ Permission Level: `ManageGuild`
 
 -------
 
-**k! or setxp /<member> /<level> [method]**
+**k! or setxp \<member> \<level> [method]**
 
 Sets the xp of a user
 
