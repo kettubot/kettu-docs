@@ -8,7 +8,7 @@ Providing useful information about Kettu, roles, servers and more!
 
 Give you more information about Kettu c:
 
-Aliases: `info, `aboutme`
+Aliases: `info`, `aboutme`
 
 -------
 
@@ -45,11 +45,11 @@ Aliases: `inviteme`, `addme`, `inv`
 
 -------
 
-**k! or / roleinfo <@Role/role name/ID>**
+**k! or / roleinfo \<@Role/role name/ID>**
 
 Shows useful information about a given role.
 
-Aliases: `aboutrole, `ri`
+Aliases: `aboutrole`, `ri`
 
 -------
 

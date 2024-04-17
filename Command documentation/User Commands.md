@@ -10,8 +10,24 @@ Aliases: `deletemydata`, `deletedata`, `cleardata`
 
 -------
 
+**k! or / rank**
+
+Show's you your level!
+
+Aliases: `level`
+
+-------
+
+**k! or / leaderboard**
+
+Show's the server leveling leaderboard
+
+Aliases: `levels`, `lb`
+
+-------
+
 **k!preferences [@user/id or all/animal/social/commandName]**
-**/preferences [User] [animal preferences] [social preferences]
+**/preferences [User] [animal preferences] [social preferences]**
 
 Allows you to view other users preferences or modify your own
 
