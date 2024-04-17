@@ -2,6 +2,44 @@
 
 Here you can find detailed logs of the changes and updates for Kettu. You can follow these logs in your own server if you join our [support server](https://discordapp.com/invite/4Bavumy). Want to take a step back in time and look at previous change logs? [Version 3](https://github.com/kettubot/kettu-docs/blob/v3/Change%20Log.md), [Version 2](https://gideon-foxo.gitbook.io/kettu/change-log).
 
+## Version 4.2.0
+
+➕ Added leveling to Kettu
+
+➕ Added rank, leaderboard, setlevel, and setxp commands
+
+➕ Updated [donations](<https://kettu.cc/donate>) to be in house powered by stripe
+
+➕ Gave the website a minor refresh and updated it to include leveling
+
+➕ Added close menu button to the preference command
+
+🐛 Fixed a bug causing Kettu to type endless if it ended early in moderation commands
+
+🐛 Fixed bug causing preferences to not work in DMs
+
+🐛 Fixed a bug causing a vanity invite to not render correctly in serverinfo 
+
+🐛 Fixed a bug causing the member args handler to break instead of correctly returning a user error
+
+🐛 Fixed a bug causing the delete case command to break
+
+🐛 Small misc bug fixes
+
+🔧 Changed kick perms to now require kick perms instead of ban now that Discord has locked down the purge members endpoint more
+
+🔧 Added warn logs to boost messages if they fail to send
+
+🔧 Kettu now tracks social stats for a future update
+
+🛠️ Updated and improved command loading
+
+🛠️ Overhauled the settings command internally, and fixed minor bugs 
+
+🛠️ Replaced our runtime with Bun instead of node and replaced some files in typescript 
+
+📝 Updated our [terms of service and privacy policy](<https://github.com/kettubot/kettu-docs/commit/b796cd950f1ed94c7994104aa6b2fa848ab6352e>) to make it more clear and to include this update
+
 ## Version 4.1.0
 
 🔧 Rebuilt all of the social commands to be more streamlined and easier to update and maintain in the future
