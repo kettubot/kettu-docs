@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "postbuild": "pagefind --site .next/server/pages --output-path out/_pagefind",
+    "postbuild": "node scripts/nest-output.mjs && pagefind --site .next/server/pages --output-path out/docs/_pagefind",
     "start": "next start",
     "preview": "wrangler dev",
     "deploy": "wrangler deploy"
