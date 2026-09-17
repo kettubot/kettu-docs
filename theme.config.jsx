@@ -1,5 +1,5 @@
 export default {
-  logo: <span>Kettu</span>,
+  logo: <span onclick={() => location.pathname = '/'}>Kettu</span>,
 
   head: (
     <>
