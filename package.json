@@ -1,0 +1,26 @@
+{
+  "name": "kettu-docs",
+  "type": "module",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "postbuild": "pagefind --site .next/server/pages --output-path out/_pagefind",
+    "start": "next start",
+    "preview": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "next": "^15.0.2",
+    "nextra": "^3.2.0",
+    "nextra-theme-docs": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "22.8.6",
+    "pagefind": "^1.5.2",
+    "wrangler": "^4.133.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
